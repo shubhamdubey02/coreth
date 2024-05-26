@@ -33,9 +33,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/trienode"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

@@ -19,11 +19,11 @@ package state
 import (
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/trie/triedb/hashdb"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/trie"
+	"github.com/cryft-labs/coreth/trie/triedb/hashdb"
+	"github.com/cryft-labs/coreth/trie/triedb/pathdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"

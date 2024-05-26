@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/codec"
+	"github.com/cryft-labs/cryftgo/codec"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/units"
 )
 
 const (

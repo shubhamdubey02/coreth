@@ -32,9 +32,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core/bloombits"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/core/bloombits"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/ethereum/go-ethereum/ethdb"

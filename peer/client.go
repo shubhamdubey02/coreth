@@ -7,9 +7,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/cryft-labs/cryftgo/version"
 )
 
 var (

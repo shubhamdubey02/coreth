@@ -8,12 +8,12 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/cryft-labs/coreth/params"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/sync/handlers/stats"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"

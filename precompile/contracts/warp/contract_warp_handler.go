@@ -6,12 +6,12 @@ package warp
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/predicate"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
+	"github.com/cryft-labs/coreth/precompile/contract"
+	"github.com/cryft-labs/coreth/predicate"
+	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

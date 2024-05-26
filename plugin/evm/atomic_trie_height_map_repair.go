@@ -9,9 +9,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/trienode"
+	"github.com/cryft-labs/cryftgo/database"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/log"
 )
 

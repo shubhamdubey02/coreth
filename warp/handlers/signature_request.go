@@ -7,11 +7,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/warp"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/warp"
 	"github.com/ethereum/go-ethereum/log"
 )
 

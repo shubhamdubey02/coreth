@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/cryft-labs/cryftgo/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

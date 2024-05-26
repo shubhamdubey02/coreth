@@ -37,14 +37,14 @@ if [[ -d "${AVALANCHEGO_CLONE_PATH}" ]]; then
   git fetch
 else
   echo "creating new clone"
-  git clone https://github.com/ava-labs/avalanchego.git "${AVALANCHEGO_CLONE_PATH}"
+  git clone https://github.com/cryft-labs/cryftgo.git "${AVALANCHEGO_CLONE_PATH}"
   cd "${AVALANCHEGO_CLONE_PATH}"
 fi
 # Branch will be reset to $AVALANCHE_VERSION if it already exists
 git checkout -B "test-${AVALANCHE_VERSION}" "${AVALANCHE_VERSION}"
 
 echo "updating coreth dependency to point to ${CORETH_PATH}"
-go mod edit -replace "github.com/ava-labs/coreth=${CORETH_PATH}"
+go mod edit -replace "github.com/cryft-labs/coreth=${CORETH_PATH}"
 go mod tidy
 
 echo "building avalanchego"

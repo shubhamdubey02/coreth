@@ -16,17 +16,17 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
-	"github.com/ava-labs/coreth/predicate"
+	"github.com/cryft-labs/coreth/core"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/params"
+	"github.com/cryft-labs/coreth/precompile/precompileconfig"
+	"github.com/cryft-labs/coreth/predicate"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/snow/choices"
+	"github.com/cryft-labs/cryftgo/snow/consensus/snowman"
+	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
 )
 
 var (

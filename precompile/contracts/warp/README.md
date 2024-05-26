@@ -44,7 +44,7 @@ Additionally, the `SourceChainID` is excluded because anyone parsing the chain c
 - `sender`
 - The `messageID` of the unsigned message (sha256 of the unsigned message)
 
-The actual `message` is the entire [Avalanche Warp Unsigned Message](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/unsigned_message.go#L14) including an [AddressedCall](https://github.com/ava-labs/avalanchego/tree/master/vms/platformvm/warp/payload#readme). The unsigned message is emitted as the unindexed data in the log.
+The actual `message` is the entire [Avalanche Warp Unsigned Message](https://github.com/cryft-labs/cryftgo/blob/master/vms/platformvm/warp/unsigned_message.go#L14) including an [AddressedCall](https://github.com/cryft-labs/cryftgo/tree/master/vms/platformvm/warp/payload#readme). The unsigned message is emitted as the unindexed data in the log.
 
 #### getVerifiedMessage
 
@@ -71,11 +71,11 @@ The `blockchainID` in Avalanche refers to the txID that created the blockchain o
 
 ### Predicate Encoding
 
-Avalanche Warp Messages are encoded as a signed Avalanche [Warp Message](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/message.go) where the [UnsignedMessage](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/unsigned_message.go)'s payload includes an [AddressedPayload](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/payload/payload.go).
+Avalanche Warp Messages are encoded as a signed Avalanche [Warp Message](https://github.com/cryft-labs/cryftgo/blob/master/vms/platformvm/warp/message.go) where the [UnsignedMessage](https://github.com/cryft-labs/cryftgo/blob/master/vms/platformvm/warp/unsigned_message.go)'s payload includes an [AddressedPayload](https://github.com/cryft-labs/cryftgo/blob/master/vms/platformvm/warp/payload/payload.go).
 
 Since the predicate is encoded into the [Transaction Access List](https://eips.ethereum.org/EIPS/eip-2930), it is packed into 32 byte hashes intended to declare storage slots that should be pre-warmed into the cache prior to transaction execution.
 
-Therefore, we use the [Predicate Utils](https://github.com/ava-labs/coreth/blob/master/predicate/Predicate.md) package to encode the actual byte slice of size N into the access list.
+Therefore, we use the [Predicate Utils](https://github.com/cryft-labs/coreth/blob/master/predicate/Predicate.md) package to encode the actual byte slice of size N into the access list.
 
 ### Performance Optimization: C-Chain to Subnet
 

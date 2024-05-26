@@ -8,16 +8,16 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/snow/validators"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )
 
-// This test copies the test coverage from https://github.com/ava-labs/avalanchego/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
+// This test copies the test coverage from https://github.com/cryft-labs/cryftgo/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
 // These tests are only expected to fail if there is a breaking change in AvalancheGo that unexpectedly changes behavior.
 func TestSignatureVerification(t *testing.T) {
 	tests = []signatureTest{

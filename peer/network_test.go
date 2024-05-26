@@ -12,21 +12,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/cryft-labs/cryftgo/network/p2p"
+	"github.com/cryft-labs/cryftgo/snow/engine/common"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/codec/linearcodec"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/version"
 )
 
 var (

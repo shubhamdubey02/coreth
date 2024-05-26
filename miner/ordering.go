@@ -30,8 +30,8 @@ import (
 	"container/heap"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/core/txpool"
+	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

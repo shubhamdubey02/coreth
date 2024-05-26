@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
-	"github.com/ava-labs/coreth/predicate"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/params"
+	"github.com/cryft-labs/coreth/precompile/precompileconfig"
+	"github.com/cryft-labs/coreth/predicate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -4,8 +4,8 @@
 package syncutils
 
 import (
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/core/state/snapshot"
+	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

@@ -11,14 +11,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/database"
+	"github.com/cryft-labs/cryftgo/database/prefixdb"
+	"github.com/cryft-labs/cryftgo/database/versiondb"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/cryft-labs/cryftgo/utils/wrappers"
 )
 
 const (

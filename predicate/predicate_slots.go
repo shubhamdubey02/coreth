@@ -4,9 +4,9 @@
 package predicate
 
 import (
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/params"
+	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

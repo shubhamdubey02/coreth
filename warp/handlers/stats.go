@@ -6,7 +6,7 @@ package handlers
 import (
 	"time"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/cryft-labs/coreth/metrics"
 )
 
 type handlerStats struct {

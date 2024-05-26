@@ -31,7 +31,7 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )

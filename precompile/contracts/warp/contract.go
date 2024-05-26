@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
+	"github.com/cryft-labs/coreth/accounts/abi"
+	"github.com/cryft-labs/coreth/precompile/contract"
+	"github.com/cryft-labs/coreth/vmerrs"
 
 	_ "embed"
 

@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/vms"
 )
 
 var (

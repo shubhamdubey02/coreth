@@ -4,12 +4,12 @@
 package utils
 
 import (
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/cryft-labs/cryftgo/api/metrics"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/snow"
+	"github.com/cryft-labs/cryftgo/snow/validators"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

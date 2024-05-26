@@ -7,17 +7,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/cryft-labs/cryftgo/chains/atomic"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/vms/components/avax"
+	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

@@ -10,13 +10,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/exp/slog"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/cryft-labs/cryftgo/api"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/cryft-labs/cryftgo/utils/formatting"
+	"github.com/cryft-labs/cryftgo/utils/formatting/address"
+	"github.com/cryft-labs/cryftgo/utils/json"
+	"github.com/cryft-labs/cryftgo/utils/rpc"
 )
 
 // Interface compliance

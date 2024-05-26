@@ -9,7 +9,7 @@ set -euo pipefail
 GOPATH="$(go env GOPATH)"
 
 # Set binary location
-binary_path=${CORETH_BINARY_PATH:-"$GOPATH/src/github.com/ava-labs/avalanchego/build/plugins/evm"}
+binary_path=${CORETH_BINARY_PATH:-"$GOPATH/src/github.com/cryft-labs/cryftgo/build/plugins/evm"}
 
 # Avalabs docker hub
 DOCKERHUB_REPO="avaplatform/coreth"

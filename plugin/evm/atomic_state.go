@@ -6,9 +6,9 @@ package evm
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/cryft-labs/cryftgo/chains/atomic"
+	"github.com/cryft-labs/cryftgo/database"
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

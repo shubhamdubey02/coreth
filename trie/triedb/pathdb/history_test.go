@@ -31,9 +31,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/testutil"
-	"github.com/ava-labs/coreth/trie/triestate"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/trie/testutil"
+	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 )

@@ -6,9 +6,9 @@ package evm
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
+	"github.com/cryft-labs/cryftgo/database"
+	"github.com/cryft-labs/cryftgo/database/memdb"
+	"github.com/cryft-labs/cryftgo/database/versiondb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

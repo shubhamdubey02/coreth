@@ -11,23 +11,23 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/sync/client/stats"
+	"github.com/cryft-labs/coreth/params"
+	"github.com/cryft-labs/coreth/sync/client/stats"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/cryft-labs/coreth/core/rawdb"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/peer"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

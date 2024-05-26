@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/cryft-labs/cryftgo/chains/atomic"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/coreth/precompile/precompileconfig"
 )
 
 var _ precompileconfig.SharedMemoryWriter = &sharedMemoryWriter{}

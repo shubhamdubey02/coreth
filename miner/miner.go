@@ -28,13 +28,13 @@
 package miner
 
 import (
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/cryft-labs/coreth/consensus"
+	"github.com/cryft-labs/coreth/core"
+	"github.com/cryft-labs/coreth/core/txpool"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/params"
+	"github.com/cryft-labs/coreth/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

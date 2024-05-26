@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/set"
 	"github.com/stretchr/testify/assert"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	commonEng "github.com/cryft-labs/cryftgo/snow/engine/common"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
 )
 
 // show that a txID discovered from gossip is requested to the same node only if

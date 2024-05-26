@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
 )
 
 const (

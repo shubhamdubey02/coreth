@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/profiler"
+	"github.com/cryft-labs/cryftgo/api"
+	"github.com/cryft-labs/cryftgo/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
 )
 

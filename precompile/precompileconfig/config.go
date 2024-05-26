@@ -5,11 +5,11 @@
 package precompileconfig
 
 import (
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/cryft-labs/cryftgo/chains/atomic"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/snow"
+	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/ethereum/go-ethereum/common"
 )
 

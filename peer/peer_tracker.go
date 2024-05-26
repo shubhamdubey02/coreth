@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	utils_math "github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/cryft-labs/cryftgo/ids"
+	utils_math "github.com/cryft-labs/cryftgo/utils/math"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/version"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/cryft-labs/coreth/metrics"
 )
 
 const (

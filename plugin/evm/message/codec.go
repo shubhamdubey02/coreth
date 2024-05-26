@@ -4,10 +4,10 @@
 package message
 
 import (
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/codec/linearcodec"
+	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/cryft-labs/cryftgo/utils/wrappers"
 )
 
 const (

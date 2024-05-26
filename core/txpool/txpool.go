@@ -33,9 +33,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/cryft-labs/coreth/core"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"

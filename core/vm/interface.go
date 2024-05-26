@@ -29,8 +29,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
+	"github.com/cryft-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

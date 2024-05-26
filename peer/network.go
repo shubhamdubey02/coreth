@@ -14,17 +14,17 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/network/p2p"
+	"github.com/cryft-labs/cryftgo/snow/engine/common"
+	"github.com/cryft-labs/cryftgo/snow/validators"
+	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/version"
 
-	"github.com/ava-labs/coreth/peer/stats"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/cryft-labs/coreth/peer/stats"
+	"github.com/cryft-labs/coreth/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request

@@ -33,10 +33,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/accounts/abi/bind/backends"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/accounts/abi/bind"
+	"github.com/cryft-labs/coreth/accounts/abi/bind/backends"
+	"github.com/cryft-labs/coreth/core"
+	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

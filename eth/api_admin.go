@@ -34,8 +34,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/cryft-labs/coreth/core"
+	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 )
 
