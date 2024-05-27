@@ -130,8 +130,8 @@ github.com/crate-crypto/go-ipa v0.0.0-20231025140028-3c0104f4b233/go.mod h1:geZJ
 github.com/crate-crypto/go-kzg-4844 v0.7.0 h1:C0vgZRk4q4EZ/JgPfzuSoxdCq3C3mOZMBShovmncxvA=
 github.com/crate-crypto/go-kzg-4844 v0.7.0/go.mod h1:1kMhvPgI0Ky3yIa+9lFySEBUBXkYxeOi8ZF1sYioxhc=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
-github.com/cryft-labs/cryftgo v1.0.0-sammy h1:PQkCEkYc/9O2qFQeIDHiWtKcKZy3rKbSg4DSUgmhCL0=
-github.com/cryft-labs/cryftgo v1.0.0-sammy/go.mod h1:KZrEFLrzyI8a1vXpuD+gcW9p99tb4kbx0dJnxCSRDQU=
+github.com/cryft-labs/cryftgo v1.0.0-wilson h1:S3X/i22qe+ry03tT6EJoSnc4fEEX8NpeFsQKVKAWbck=
+github.com/cryft-labs/cryftgo v1.0.0-wilson/go.mod h1:IFOScmi1igT7A80Ax8WTseahgjrWDJp6Yq0x690JhCk=
 github.com/davecgh/go-spew v0.0.0-20171005155431-ecdeabc65495/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
