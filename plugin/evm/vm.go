@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	avalanchegoMetrics "github.com/cryft-labs/cryftgo/api/metrics"
+	cryftgoMetrics "github.com/cryft-labs/cryftgo/api/metrics"
 	"github.com/cryft-labs/cryftgo/network/p2p"
 	"github.com/cryft-labs/cryftgo/network/p2p/gossip"
-	avalanchegoConstants "github.com/cryft-labs/cryftgo/utils/constants"
+	cryftgoConstants "github.com/cryft-labs/cryftgo/utils/constants"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/cryft-labs/coreth/consensus/dummy"
@@ -316,7 +316,7 @@ type VM struct {
 	validators *p2p.Validators
 
 	// Metrics
-	multiGatherer avalanchegoMetrics.MultiGatherer
+	multiGatherer cryftgoMetrics.MultiGatherer
 	sdkMetrics    *prometheus.Registry
 
 	bootstrapped bool
@@ -667,7 +667,7 @@ func (vm *VM) Initialize(
 
 func (vm *VM) initializeMetrics() error {
 	vm.sdkMetrics = prometheus.NewRegistry()
-	vm.multiGatherer = avalanchegoMetrics.NewMultiGatherer()
+	vm.multiGatherer = cryftgoMetrics.NewMultiGatherer()
 	// If metrics are enabled, register the default metrics regitry
 	if metrics.Enabled {
 		gatherer := corethPrometheus.Gatherer(metrics.DefaultRegistry)
@@ -1592,7 +1592,7 @@ func (vm *VM) ParseAddress(addrStr string) (ids.ID, ids.ShortID, error) {
 		return ids.ID{}, ids.ShortID{}, err
 	}
 
-	expectedHRP := avalanchegoConstants.GetHRP(vm.ctx.NetworkID)
+	expectedHRP := cryftgoConstants.GetHRP(vm.ctx.NetworkID)
 	if hrp != expectedHRP {
 		return ids.ID{}, ids.ShortID{}, fmt.Errorf("expected hrp %q but got %q",
 			expectedHRP, hrp)

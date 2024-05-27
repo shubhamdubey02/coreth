@@ -11,15 +11,15 @@ RUN git clone -b $AVALANCHE_VERSION --single-branch https://github.com/cryft-lab
 # Copy coreth repo into desired location
 COPY . coreth
 
-# Set the workdir to AvalancheGo and update coreth dependency to local version
+# Set the workdir to CryftGo and update coreth dependency to local version
 WORKDIR $GOPATH/src/github.com/cryft-labs/cryftgo
-# Run go mod download here to improve caching of AvalancheGo specific depednencies
+# Run go mod download here to improve caching of CryftGo specific depednencies
 RUN go mod download
 # Replace the coreth dependency
 RUN go mod edit -replace github.com/cryft-labs/coreth=../coreth
 RUN go mod download && go mod tidy -compat=1.21
 
-# Build the AvalancheGo binary with local version of coreth.
+# Build the CryftGo binary with local version of coreth.
 RUN ./scripts/build_avalanche.sh
 # Create the plugins directory in the standard location so the build directory will be recognized
 # as valid.
@@ -29,10 +29,10 @@ RUN mkdir build/plugins
 FROM debian:11-slim AS execution
 
 # Maintain compatibility with previous images
-RUN mkdir -p /avalanchego/build
-WORKDIR /avalanchego/build
+RUN mkdir -p /cryftgo/build
+WORKDIR /cryftgo/build
 
 # Copy the executables into the container
 COPY --from=builder /go/src/github.com/cryft-labs/cryftgo/build .
 
-CMD [ "./avalanchego" ]
+CMD [ "./cryftgo" ]

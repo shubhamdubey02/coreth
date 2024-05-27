@@ -8,21 +8,21 @@ This chain implements the Ethereum Virtual Machine and supports Solidity smart c
 
 ## Building
 
-Coreth is a dependency of AvalancheGo which is used to implement the EVM based Virtual Machine for the Avalanche C-Chain. In order to run with a local version of Coreth, users must update their Coreth dependency within AvalancheGo to point to their local Coreth directory. If Coreth and AvalancheGo are at the standard location within your GOPATH, this will look like the following:
+Coreth is a dependency of CryftGo which is used to implement the EVM based Virtual Machine for the Avalanche C-Chain. In order to run with a local version of Coreth, users must update their Coreth dependency within CryftGo to point to their local Coreth directory. If Coreth and CryftGo are at the standard location within your GOPATH, this will look like the following:
 
 ```bash
 cd $GOPATH/src/github.com/cryft-labs/cryftgo
 go mod edit -replace github.com/cryft-labs/coreth=../coreth
 ```
 
-Now that AvalancheGo depends on the local version of Coreth, we can build with the normal build script:
+Now that CryftGo depends on the local version of Coreth, we can build with the normal build script:
 
 ```bash
 ./scripts/build.sh
-./build/avalanchego
+./build/cryftgo
 ```
 
-Note: the C-Chain originally ran in a separate process from the main AvalancheGo process and communicated with it over a local gRPC connection. When this was the case, AvalancheGo's build script would download Coreth, compile it, and place the binary into the `avalanchego/build/plugins` directory.
+Note: the C-Chain originally ran in a separate process from the main CryftGo process and communicated with it over a local gRPC connection. When this was the case, CryftGo's build script would download Coreth, compile it, and place the binary into the `cryftgo/build/plugins` directory.
 
 ## API
 
@@ -34,8 +34,8 @@ The C-Chain supports the following API namespaces:
 - `debug`
 
 Only the `eth` namespace is enabled by default. 
-To enable the other namespaces see the instructions for passing the C-Chain config to AvalancheGo [here.](https://docs.avax.network/nodes/configure/chain-config-flags#enabling-evm-apis)
-Full documentation for the C-Chain's API can be found [here.](https://docs.avax.network/reference/avalanchego/c-chain/api)
+To enable the other namespaces see the instructions for passing the C-Chain config to CryftGo [here.](https://docs.avax.network/nodes/configure/chain-config-flags#enabling-evm-apis)
+Full documentation for the C-Chain's API can be found [here.](https://docs.avax.network/reference/cryftgo/c-chain/api)
 
 ## Compatibility
 

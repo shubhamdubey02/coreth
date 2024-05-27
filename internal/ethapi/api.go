@@ -139,7 +139,7 @@ func (s *EthereumAPI) FeeHistory(ctx context.Context, blockCount math.HexOrDecim
 // Syncing allows the caller to determine whether the chain is syncing or not.
 // In geth, the response is either a map representing an ethereum.SyncProgress
 // struct or "false" (indicating the chain is not syncing).
-// In coreth, avalanchego prevents API calls unless bootstrapping is complete,
+// In coreth, cryftgo prevents API calls unless bootstrapping is complete,
 // so we always return false here for API compatibility.
 func (s *EthereumAPI) Syncing() (interface{}, error) {
 	return false, nil

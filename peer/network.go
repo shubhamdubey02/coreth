@@ -87,11 +87,11 @@ type network struct {
 	lock                       sync.RWMutex                       // lock for mutating state of this Network struct
 	self                       ids.NodeID                         // NodeID of this node
 	requestIDGen               uint32                             // requestID counter used to track outbound requests
-	outstandingRequestHandlers map[uint32]message.ResponseHandler // maps avalanchego requestID => message.ResponseHandler
+	outstandingRequestHandlers map[uint32]message.ResponseHandler // maps cryftgo requestID => message.ResponseHandler
 	activeAppRequests          *semaphore.Weighted                // controls maximum number of active outbound requests
 	activeCrossChainRequests   *semaphore.Weighted                // controls maximum number of active outbound cross chain requests
 	p2pNetwork                 *p2p.Network
-	appSender                  common.AppSender                 // avalanchego AppSender for sending messages
+	appSender                  common.AppSender                 // cryftgo AppSender for sending messages
 	codec                      codec.Manager                    // Codec used for parsing messages
 	crossChainCodec            codec.Manager                    // Codec used for parsing cross chain messages
 	appRequestHandler          message.RequestHandler           // maps request type => handler
@@ -317,7 +317,7 @@ func (n *network) CrossChainAppRequest(ctx context.Context, requestingChainID id
 	}
 }
 
-// CrossChainAppRequestFailed can be called by the avalanchego -> VM in following cases:
+// CrossChainAppRequestFailed can be called by the cryftgo -> VM in following cases:
 // - respondingChain doesn't exist
 // - invalid CrossChainAppResponse from respondingChain
 // - invalid CrossChainRequest was sent to respondingChain
@@ -360,7 +360,7 @@ func (n *network) CrossChainAppResponse(ctx context.Context, respondingChainID i
 	return handler.OnResponse(response)
 }
 
-// AppRequest is called by avalanchego -> VM when there is an incoming AppRequest from a peer
+// AppRequest is called by cryftgo -> VM when there is an incoming AppRequest from a peer
 // error returned by this function is expected to be treated as fatal by the engine
 // returns error if the requestHandler returns an error
 // sends a response back to the sender if length of response returned by the handler is >0
@@ -420,7 +420,7 @@ func (n *network) AppResponse(ctx context.Context, nodeID ids.NodeID, requestID 
 	return handler.OnResponse(response)
 }
 
-// AppRequestFailed can be called by the avalanchego -> VM in following cases:
+// AppRequestFailed can be called by the cryftgo -> VM in following cases:
 // - node is benched
 // - failed to send message to [nodeID] due to a network issue
 // - request times out before a response is provided
@@ -480,7 +480,7 @@ func (n *network) markRequestFulfilled(requestID uint32) (message.ResponseHandle
 	return handler, true
 }
 
-// AppGossip is called by avalanchego -> VM when there is an incoming AppGossip
+// AppGossip is called by cryftgo -> VM when there is an incoming AppGossip
 // from a peer. An error returned by this function is treated as fatal by the
 // engine.
 func (n *network) AppGossip(ctx context.Context, nodeID ids.NodeID, gossipBytes []byte) error {

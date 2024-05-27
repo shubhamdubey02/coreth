@@ -4,13 +4,13 @@
 - Fixes snapshot use when state sync was explicitly enabled
 - Fixes v0.13.3 locking regression in async snapshot generation
 - Update go-ethereum to v1.13.8
-- Bump AvalancheGo to v1.11.6
+- Bump CryftGo to v1.11.6
 - Bump golang version requirement to 1.21.10
 - "timestamp" in logs is changed to "t"
 
 ## [v0.13.3](https://github.com/cryft-labs/coreth/releases/tag/v0.13.3)
 - Update go-ethereum to v1.13.2
-- Bump AvalancheGo to v1.11.5
+- Bump CryftGo to v1.11.5
 - Bump golang version requirement to 1.21.9
 - Respect local flag in legacy tx pool
 - Disable blobpool
@@ -20,17 +20,17 @@
 - Integrate stake weighted gossip selection
 - Update go-ethereum to v1.12.2
 - Force precompile modules registration in ethclient
-- Bump Avalanchego to v1.11.3
+- Bump Cryftgo to v1.11.3
 
 ## [v0.13.1](https://github.com/cryft-labs/coreth/releases/tag/v0.13.1)
 
-- Bump AvalancheGo to v1.11.2
+- Bump CryftGo to v1.11.2
 - Remove Legacy Gossipper
 - Tune default gossip parameters
 
 ## [v0.13.0](https://github.com/cryft-labs/coreth/releases/tag/v0.13.0)
 
-- Bump AvalancheGo to v1.11.1
+- Bump CryftGo to v1.11.1
 - Bump minimum Go version to 1.21.7
 - Add more error messages to warp backend
 
@@ -39,7 +39,7 @@
 - Add support for off-chain warp messages
 - Add support for getBlockReceipts RPC API
 - Fix issue with state sync for large blocks
-- Migrating Push Gossip to avalanchego network SDK handlers
+- Migrating Push Gossip to cryftgo network SDK handlers
 
 ## [v0.12.9](https://github.com/cryft-labs/coreth/releases/tag/v0.12.9)
 
@@ -50,12 +50,12 @@
 
 ## [v0.12.8](https://github.com/cryft-labs/coreth/releases/tag/v0.12.8)
 
-- Bump AvalancheGo to v1.10.15
+- Bump CryftGo to v1.10.15
 - Fix crash in prestate tracer on memory read
 
 ## [v0.12.7](https://github.com/cryft-labs/coreth/releases/tag/v0.12.7)
 
-- Bump AvalancheGo to v1.10.14
+- Bump CryftGo to v1.10.14
 
 ## [v0.12.6](https://github.com/cryft-labs/coreth/releases/tag/v0.12.6)
 
@@ -69,7 +69,7 @@
 - Fix hanging requests on shutdown that could cause ungraceful shutdown
 - Increase batch size writing snapshot diff to disk
 - Migrate geth changes from v1.11.4 through v1.12.0
-- Bump AvalancheGo dependency to v1.10.10
+- Bump CryftGo dependency to v1.10.10
 
 ## [v0.12.4](https://github.com/cryft-labs/coreth/releases/tag/v0.12.4)
 
@@ -89,7 +89,7 @@
 
 ## [v0.12.1](https://github.com/cryft-labs/coreth/releases/tag/v0.12.1)
 
-- Bump AvalancheGo dependency to v1.10.1
+- Bump CryftGo dependency to v1.10.1
 - Improve block building logic
 - Use shorter ctx while reading snapshot to serve state sync requests
 - Remove proposer activation time from gossiper
@@ -121,7 +121,7 @@
 
 ## [v0.11.6](https://github.com/cryft-labs/coreth/releases/tag/v0.11.6)
 
-- Bump AvalancheGo to v1.9.6
+- Bump CryftGo to v1.9.6
 
 ## [v0.11.5](https://github.com/cryft-labs/coreth/releases/tag/v0.11.5)
 
@@ -246,7 +246,7 @@
 
 - Fix deadlock bug on shutdown causing historical re-generation on restart
 - Add API endpoint to fetch running VM Config
-- Add AvalancheGo custom log formatting to C-Chain logs
+- Add CryftGo custom log formatting to C-Chain logs
 - Deprecate support for JS Tracer
 
 ## [v0.8.8](https://github.com/cryft-labs/coreth/releases/tag/v0.8.8)

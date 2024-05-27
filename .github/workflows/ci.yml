@@ -6,12 +6,12 @@ on:
   pull_request:
   workflow_dispatch:
     inputs:
-      avalanchegoRepo:
-        description: 'avalanchego github repository'
+      cryftgoRepo:
+        description: 'cryftgo github repository'
         required: true
-        default: 'ava-labs/avalanchego'
-      avalanchegoBranch:
-        description: 'avalanchego branch'
+        default: 'ava-labs/cryftgo'
+      cryftgoBranch:
+        description: 'cryftgo branch'
         required: true
         default: 'master'
 
@@ -21,22 +21,22 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
-      - name: check out ${{ github.event.inputs.avalanchegoRepo }} ${{ github.event.inputs.avalanchegoBranch }}
+      - name: check out ${{ github.event.inputs.cryftgoRepo }} ${{ github.event.inputs.cryftgoBranch }}
         if: ${{ github.event_name == 'workflow_dispatch' }}
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.inputs.avalanchegoRepo }}
-          ref: ${{ github.event.inputs.avalanchegoBranch }}
-          path: avalanchego
+          repository: ${{ github.event.inputs.cryftgoRepo }}
+          ref: ${{ github.event.inputs.cryftgoBranch }}
+          path: cryftgo
           token: ${{ secrets.AVALANCHE_PAT }}
       - uses: actions/setup-go@v5
         with:
           go-version: '~1.21.9'
           check-latest: true
-      - name: change avalanchego dep
+      - name: change cryftgo dep
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
-          go mod edit -replace github.com/cryft-labs/cryftgo=./avalanchego
+          go mod edit -replace github.com/cryft-labs/cryftgo=./cryftgo
           go mod tidy
           go clean -modcache # avoid conflicts with the golangci-lint-action cache
       - run: ./scripts/lint_allowed_geth_imports.sh
@@ -60,22 +60,22 @@ jobs:
         os: [macos-latest, ubuntu-20.04, ubuntu-latest, windows-latest]
     steps:
     - uses: actions/checkout@v4
-    - name: check out ${{ github.event.inputs.avalanchegoRepo }} ${{ github.event.inputs.avalanchegoBranch }}
+    - name: check out ${{ github.event.inputs.cryftgoRepo }} ${{ github.event.inputs.cryftgoBranch }}
       if: ${{ github.event_name == 'workflow_dispatch' }}
       uses: actions/checkout@v4
       with:
-        repository: ${{ github.event.inputs.avalanchegoRepo }}
-        ref: ${{ github.event.inputs.avalanchegoBranch }}
-        path: avalanchego
+        repository: ${{ github.event.inputs.cryftgoRepo }}
+        ref: ${{ github.event.inputs.cryftgoBranch }}
+        path: cryftgo
         token: ${{ secrets.AVALANCHE_PAT }}
     - uses: actions/setup-go@v5
       with:
         go-version: '~1.21.9'
         check-latest: true
-    - name: change avalanchego dep
+    - name: change cryftgo dep
       if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
-        go mod edit -replace github.com/cryft-labs/cryftgo=./avalanchego
+        go mod edit -replace github.com/cryft-labs/cryftgo=./cryftgo
         go mod tidy
     - name: Set timeout on Windows # Windows UT run slower and need a longer timeout
       shell: bash
@@ -91,21 +91,21 @@ jobs:
         TIMEOUT: ${{ env.TIMEOUT }}
     - run: ./scripts/coverage.sh
       shell: bash
-  avalanchego_e2e:
-    name: AvalancheGo E2E Tests v${{ matrix.go }} (${{ matrix.os }})
+  cryftgo_e2e:
+    name: CryftGo E2E Tests v${{ matrix.go }} (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ ubuntu-20.04 ]
     steps:
     - uses: actions/checkout@v4
-    - name: check out ${{ github.event.inputs.avalanchegoRepo }} ${{ github.event.inputs.avalanchegoBranch }}
+    - name: check out ${{ github.event.inputs.cryftgoRepo }} ${{ github.event.inputs.cryftgoBranch }}
       if: ${{ github.event_name == 'workflow_dispatch' }}
       uses: actions/checkout@v4
       with:
-        repository: ${{ github.event.inputs.avalanchegoRepo }}
-        ref: ${{ github.event.inputs.avalanchegoBranch }}
-        path: avalanchego
+        repository: ${{ github.event.inputs.cryftgoRepo }}
+        ref: ${{ github.event.inputs.cryftgoBranch }}
+        path: cryftgo
         token: ${{ secrets.AVALANCHE_PAT }}
     - uses: actions/setup-go@v5
       with:
