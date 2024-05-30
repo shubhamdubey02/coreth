@@ -21,7 +21,7 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/math"
 	"github.com/cryft-labs/cryftgo/utils/set"
 	"github.com/cryft-labs/cryftgo/utils/wrappers"
-	"github.com/cryft-labs/cryftgo/vms/components/avax"
+	"github.com/cryft-labs/cryftgo/vms/components/cryft"
 	"github.com/cryft-labs/cryftgo/vms/components/verify"
 	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 	"github.com/ethereum/go-ethereum/common"
@@ -31,8 +31,8 @@ import (
 var (
 	_                           UnsignedAtomicTx       = &UnsignedExportTx{}
 	_                           secp256k1fx.UnsignedTx = &UnsignedExportTx{}
-	errExportNonAVAXInputBanff                         = errors.New("export input cannot contain non-AVAX in Banff")
-	errExportNonAVAXOutputBanff                        = errors.New("export output cannot contain non-AVAX in Banff")
+	errExportNonCRYFTInputBanff                         = errors.New("export input cannot contain non-CRYFT in Banff")
+	errExportNonCRYFTOutputBanff                        = errors.New("export output cannot contain non-CRYFT in Banff")
 )
 
 // UnsignedExportTx is an unsigned ExportTx
@@ -47,7 +47,7 @@ type UnsignedExportTx struct {
 	// Inputs
 	Ins []EVMInput `serialize:"true" json:"inputs"`
 	// Outputs that are exported to the chain
-	ExportedOutputs []*avax.TransferableOutput `serialize:"true" json:"exportedOutputs"`
+	ExportedOutputs []*cryft.TransferableOutput `serialize:"true" json:"exportedOutputs"`
 }
 
 // InputUTXOs returns a set of all the hash(address:nonce) exporting funds.
@@ -98,8 +98,8 @@ func (utx *UnsignedExportTx) Verify(
 		if err := in.Verify(); err != nil {
 			return err
 		}
-		if rules.IsBanff && in.AssetID != ctx.AVAXAssetID {
-			return errExportNonAVAXInputBanff
+		if rules.IsBanff && in.AssetID != ctx.CRYFTAssetID {
+			return errExportNonCRYFTInputBanff
 		}
 	}
 
@@ -108,14 +108,14 @@ func (utx *UnsignedExportTx) Verify(
 			return err
 		}
 		assetID := out.AssetID()
-		if assetID != ctx.AVAXAssetID && utx.DestinationChain == constants.PlatformChainID {
+		if assetID != ctx.CRYFTAssetID && utx.DestinationChain == constants.PlatformChainID {
 			return errWrongChainID
 		}
-		if rules.IsBanff && assetID != ctx.AVAXAssetID {
-			return errExportNonAVAXOutputBanff
+		if rules.IsBanff && assetID != ctx.CRYFTAssetID {
+			return errExportNonCRYFTOutputBanff
 		}
 	}
-	if !avax.IsSortedTransferableOutputs(utx.ExportedOutputs, Codec) {
+	if !cryft.IsSortedTransferableOutputs(utx.ExportedOutputs, Codec) {
 		return errOutputsNotSorted
 	}
 	if rules.IsApricotPhase1 && !utils.IsSortedAndUnique(utx.Ins) {
@@ -186,7 +186,7 @@ func (utx *UnsignedExportTx) SemanticVerify(
 	}
 
 	// Check the transaction consumes and produces the right amounts
-	fc := avax.NewFlowChecker()
+	fc := cryft.NewFlowChecker()
 	switch {
 	// Apply dynamic fees to export transactions as of Apricot Phase 3
 	case rules.IsApricotPhase3:
@@ -198,10 +198,10 @@ func (utx *UnsignedExportTx) SemanticVerify(
 		if err != nil {
 			return err
 		}
-		fc.Produce(vm.ctx.AVAXAssetID, txFee)
+		fc.Produce(vm.ctx.CRYFTAssetID, txFee)
 	// Apply fees to export transactions before Apricot Phase 3
 	default:
-		fc.Produce(vm.ctx.AVAXAssetID, params.AvalancheAtomicTxFee)
+		fc.Produce(vm.ctx.CRYFTAssetID, params.AvalancheAtomicTxFee)
 	}
 	for _, out := range utx.ExportedOutputs {
 		fc.Produce(out.AssetID(), out.Output().Amount())
@@ -248,12 +248,12 @@ func (utx *UnsignedExportTx) AtomicOps() (ids.ID, *atomic.Requests, error) {
 
 	elems := make([]*atomic.Element, len(utx.ExportedOutputs))
 	for i, out := range utx.ExportedOutputs {
-		utxo := &avax.UTXO{
-			UTXOID: avax.UTXOID{
+		utxo := &cryft.UTXO{
+			UTXOID: cryft.UTXOID{
 				TxID:        txID,
 				OutputIndex: uint32(i),
 			},
-			Asset: avax.Asset{ID: out.AssetID()},
+			Asset: cryft.Asset{ID: out.AssetID()},
 			Out:   out.Out,
 		}
 
@@ -266,7 +266,7 @@ func (utx *UnsignedExportTx) AtomicOps() (ids.ID, *atomic.Requests, error) {
 			Key:   utxoID[:],
 			Value: utxoBytes,
 		}
-		if out, ok := utxo.Out.(avax.Addressable); ok {
+		if out, ok := utxo.Out.(cryft.Addressable); ok {
 			elem.Traits = out.Addresses()
 		}
 
@@ -285,8 +285,8 @@ func (vm *VM) newExportTx(
 	baseFee *big.Int, // fee to use post-AP3
 	keys []*secp256k1.PrivateKey, // Pay the fee and provide the tokens
 ) (*Tx, error) {
-	outs := []*avax.TransferableOutput{{
-		Asset: avax.Asset{ID: assetID},
+	outs := []*cryft.TransferableOutput{{
+		Asset: cryft.Asset{ID: assetID},
 		Out: &secp256k1fx.TransferOutput{
 			Amt: amount,
 			OutputOwners: secp256k1fx.OutputOwners{
@@ -298,20 +298,20 @@ func (vm *VM) newExportTx(
 	}}
 
 	var (
-		avaxNeeded           uint64 = 0
-		ins, avaxIns         []EVMInput
-		signers, avaxSigners [][]*secp256k1.PrivateKey
+		cryftNeeded           uint64 = 0
+		ins, cryftIns         []EVMInput
+		signers, cryftSigners [][]*secp256k1.PrivateKey
 		err                  error
 	)
 
-	// consume non-AVAX
-	if assetID != vm.ctx.AVAXAssetID {
+	// consume non-CRYFT
+	if assetID != vm.ctx.CRYFTAssetID {
 		ins, signers, err = vm.GetSpendableFunds(keys, assetID, amount)
 		if err != nil {
 			return nil, fmt.Errorf("couldn't generate tx inputs/signers: %w", err)
 		}
 	} else {
-		avaxNeeded = amount
+		cryftNeeded = amount
 	}
 
 	rules := vm.currentRules()
@@ -335,22 +335,22 @@ func (vm *VM) newExportTx(
 			return nil, err
 		}
 
-		avaxIns, avaxSigners, err = vm.GetSpendableAVAXWithFee(keys, avaxNeeded, cost, baseFee)
+		cryftIns, cryftSigners, err = vm.GetSpendableCRYFTWithFee(keys, cryftNeeded, cost, baseFee)
 	default:
-		var newAvaxNeeded uint64
-		newAvaxNeeded, err = math.Add64(avaxNeeded, params.AvalancheAtomicTxFee)
+		var newCryftNeeded uint64
+		newCryftNeeded, err = math.Add64(cryftNeeded, params.AvalancheAtomicTxFee)
 		if err != nil {
 			return nil, errOverflowExport
 		}
-		avaxIns, avaxSigners, err = vm.GetSpendableFunds(keys, vm.ctx.AVAXAssetID, newAvaxNeeded)
+		cryftIns, cryftSigners, err = vm.GetSpendableFunds(keys, vm.ctx.CRYFTAssetID, newCryftNeeded)
 	}
 	if err != nil {
 		return nil, fmt.Errorf("couldn't generate tx inputs/signers: %w", err)
 	}
-	ins = append(ins, avaxIns...)
-	signers = append(signers, avaxSigners...)
+	ins = append(ins, cryftIns...)
+	signers = append(signers, cryftSigners...)
 
-	avax.SortTransferableOutputs(outs, vm.codec)
+	cryft.SortTransferableOutputs(outs, vm.codec)
 	SortEVMInputsAndSigners(ins, signers)
 
 	// Create the transaction
@@ -372,9 +372,9 @@ func (vm *VM) newExportTx(
 func (utx *UnsignedExportTx) EVMStateTransfer(ctx *snow.Context, state *state.StateDB) error {
 	addrs := map[[20]byte]uint64{}
 	for _, from := range utx.Ins {
-		if from.AssetID == ctx.AVAXAssetID {
-			log.Debug("crosschain", "dest", utx.DestinationChain, "addr", from.Address, "amount", from.Amount, "assetID", "AVAX")
-			// We multiply the input amount by x2cRate to convert AVAX back to the appropriate
+		if from.AssetID == ctx.CRYFTAssetID {
+			log.Debug("crosschain", "dest", utx.DestinationChain, "addr", from.Address, "amount", from.Amount, "assetID", "CRYFT")
+			// We multiply the input amount by x2cRate to convert CRYFT back to the appropriate
 			// denomination before export.
 			amount := new(big.Int).Mul(
 				new(big.Int).SetUint64(from.Amount), x2cRate)

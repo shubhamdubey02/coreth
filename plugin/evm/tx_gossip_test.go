@@ -27,7 +27,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/vms/components/avax"
+	"github.com/cryft-labs/cryftgo/vms/components/cryft"
 	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 
 	"google.golang.org/protobuf/proto"
@@ -166,7 +166,7 @@ func TestAtomicTxGossip(t *testing.T) {
 	require := require.New(t)
 	ctx := context.Background()
 	snowCtx := utils.TestSnowContext()
-	snowCtx.AVAXAssetID = ids.GenerateTestID()
+	snowCtx.CRYFTAssetID = ids.GenerateTestID()
 	snowCtx.XChainID = ids.GenerateTestID()
 	validatorState := &validators.TestState{
 		GetSubnetIDF: func(context.Context, ids.ID) (ids.ID, error) {
@@ -266,12 +266,12 @@ func TestAtomicTxGossip(t *testing.T) {
 		snowCtx,
 		ids.GenerateTestID(),
 		0,
-		snowCtx.AVAXAssetID,
+		snowCtx.CRYFTAssetID,
 		100_000_000_000,
 		pk.PublicKey().Address(),
 	)
 	require.NoError(err)
-	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*avax.UTXO{utxo})
+	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*cryft.UTXO{utxo})
 	require.NoError(err)
 	require.NoError(vm.mempool.AddLocalTx(tx))
 
@@ -437,7 +437,7 @@ func TestAtomicTxPushGossipOutbound(t *testing.T) {
 	require := require.New(t)
 	ctx := context.Background()
 	snowCtx := utils.TestSnowContext()
-	snowCtx.AVAXAssetID = ids.GenerateTestID()
+	snowCtx.CRYFTAssetID = ids.GenerateTestID()
 	snowCtx.XChainID = ids.GenerateTestID()
 	validatorState := &validators.TestState{
 		GetSubnetIDF: func(context.Context, ids.ID) (ids.ID, error) {
@@ -487,12 +487,12 @@ func TestAtomicTxPushGossipOutbound(t *testing.T) {
 		snowCtx,
 		ids.GenerateTestID(),
 		0,
-		snowCtx.AVAXAssetID,
+		snowCtx.CRYFTAssetID,
 		100_000_000_000,
 		pk.PublicKey().Address(),
 	)
 	require.NoError(err)
-	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*avax.UTXO{utxo})
+	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*cryft.UTXO{utxo})
 	require.NoError(err)
 	require.NoError(vm.mempool.AddLocalTx(tx))
 	vm.atomicTxPushGossiper.Add(&GossipAtomicTx{tx})
@@ -515,7 +515,7 @@ func TestAtomicTxPushGossipInbound(t *testing.T) {
 	require := require.New(t)
 	ctx := context.Background()
 	snowCtx := utils.TestSnowContext()
-	snowCtx.AVAXAssetID = ids.GenerateTestID()
+	snowCtx.CRYFTAssetID = ids.GenerateTestID()
 	snowCtx.XChainID = ids.GenerateTestID()
 	validatorState := &validators.TestState{
 		GetSubnetIDF: func(context.Context, ids.ID) (ids.ID, error) {
@@ -563,12 +563,12 @@ func TestAtomicTxPushGossipInbound(t *testing.T) {
 		snowCtx,
 		ids.GenerateTestID(),
 		0,
-		snowCtx.AVAXAssetID,
+		snowCtx.CRYFTAssetID,
 		100_000_000_000,
 		pk.PublicKey().Address(),
 	)
 	require.NoError(err)
-	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*avax.UTXO{utxo})
+	tx, err := vm.newImportTxWithUTXOs(vm.ctx.XChainID, address, initialBaseFee, secp256k1fx.NewKeychain(pk), []*cryft.UTXO{utxo})
 	require.NoError(err)
 	require.NoError(vm.mempool.AddLocalTx(tx))
 

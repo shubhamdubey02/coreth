@@ -332,7 +332,7 @@ func (self *DummyEngine) verifyBlockFee(
 		totalBlockFee.Add(totalBlockFee, extraStateChangeContribution)
 	}
 
-	// Calculate the total excess (denominated in AVAX) over the base fee that was paid towards the block fee
+	// Calculate the total excess (denominated in CRYFT) over the base fee that was paid towards the block fee
 	for i, receipt := range receipts {
 		// Each transaction contributes the excess over the baseFee towards the totalBlockFee
 		// This should be equivalent to the sum of the "priority fees" within EIP-1559.
@@ -340,7 +340,7 @@ func (self *DummyEngine) verifyBlockFee(
 		if err != nil {
 			return err
 		}
-		// Multiply the [txFeePremium] by the gasUsed in the transaction since this gives the total AVAX that was paid
+		// Multiply the [txFeePremium] by the gasUsed in the transaction since this gives the total CRYFT that was paid
 		// above the amount required if the transaction had simply paid the minimum base fee for the block.
 		//
 		// Ex. LegacyTx paying a gas price of 100 gwei for 1M gas in a block with a base fee of 10 gwei.

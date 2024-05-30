@@ -175,7 +175,7 @@
 ## [v0.10.0](https://github.com/cryft-labs/coreth/releases/tag/v0.10.0)
 
 - Deprecate Native Asset Call and Native Asset Balance
-- Deprecate Import/Export of non-AVAX Avalanche Native Tokens via Atomic Transactions
+- Deprecate Import/Export of non-CRYFT Avalanche Native Tokens via Atomic Transactions
 - Add failure reason to bad block API
 
 ## [v0.9.0](https://github.com/cryft-labs/coreth/releases/tag/v0.9.0)
@@ -207,7 +207,7 @@
 ## [v0.8.14](https://github.com/cryft-labs/coreth/releases/tag/v0.8.14)
 
 - Bump go-ethereum dependency to v1.10.20
-- Update API names used to enable services in `eth-api` config flag. Prior names are supported but deprecated, please update your configuration [accordingly](https://docs.avax.network/nodes/maintain/chain-config-flags#c-chain-configs)
+- Update API names used to enable services in `eth-api` config flag. Prior names are supported but deprecated, please update your configuration [accordingly](https://docs.cryft.network/nodes/maintain/chain-config-flags#c-chain-configs)
 - Optimizes state sync by parallelizing trie syncing
 - Adds `eth_syncing` API for compatibility. Note: This API is only accessible after bootstrapping and always returns `"false"`, since the node will no longer be syncing at that point.
 - Adds metrics to atomic transaction mempool

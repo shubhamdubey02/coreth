@@ -1,9 +1,9 @@
 # Coreth and the C-Chain
 
-[Avalanche](https://docs.avax.network/intro) is a network composed of multiple blockchains.
+[Avalanche](https://docs.cryft.network/intro) is a network composed of multiple blockchains.
 Each blockchain is an instance of a Virtual Machine (VM), much like an object in an object-oriented language is an instance of a class.
 That is, the VM defines the behavior of the blockchain.
-Coreth (from core Ethereum) is the [Virtual Machine (VM)](https://docs.avax.network/learn/avalanche/virtual-machines) that defines the Contract Chain (C-Chain).
+Coreth (from core Ethereum) is the [Virtual Machine (VM)](https://docs.cryft.network/learn/avalanche/virtual-machines) that defines the Contract Chain (C-Chain).
 This chain implements the Ethereum Virtual Machine and supports Solidity smart contracts as well as most other Ethereum client functionality.
 
 ## Building
@@ -34,12 +34,12 @@ The C-Chain supports the following API namespaces:
 - `debug`
 
 Only the `eth` namespace is enabled by default. 
-To enable the other namespaces see the instructions for passing the C-Chain config to CryftGo [here.](https://docs.avax.network/nodes/configure/chain-config-flags#enabling-evm-apis)
-Full documentation for the C-Chain's API can be found [here.](https://docs.avax.network/reference/cryftgo/c-chain/api)
+To enable the other namespaces see the instructions for passing the C-Chain config to CryftGo [here.](https://docs.cryft.network/nodes/configure/chain-config-flags#enabling-evm-apis)
+Full documentation for the C-Chain's API can be found [here.](https://docs.cryft.network/reference/cryftgo/c-chain/api)
 
 ## Compatibility
 
-The C-Chain is compatible with almost all Ethereum tooling, including [Core,](https://docs.avax.network/build/dapp/launch-dapp#through-core) [Metamask,](https://docs.avax.network/build/dapp/launch-dapp#through-metamask) [Remix](https://docs.avax.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) and [Truffle.](https://docs.avax.network/build/tutorials/smart-contracts/using-truffle-with-the-avalanche-c-chain)
+The C-Chain is compatible with almost all Ethereum tooling, including [Core,](https://docs.cryft.network/build/dapp/launch-dapp#through-core) [Metamask,](https://docs.cryft.network/build/dapp/launch-dapp#through-metamask) [Remix](https://docs.cryft.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) and [Truffle.](https://docs.cryft.network/build/tutorials/smart-contracts/using-truffle-with-the-avalanche-c-chain)
 
 ## Differences Between Avalanche C-Chain and Ethereum
 

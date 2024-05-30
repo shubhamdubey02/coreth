@@ -69,7 +69,7 @@ func NewDefaultConfig() Config {
 		RPCGasCap:                 25000000,
 		RPCEVMTimeout:             5 * time.Second,
 		GPO:                       DefaultFullGPOConfig,
-		RPCTxFeeCap:               1, // 1 AVAX
+		RPCTxFeeCap:               1, // 1 CRYFT
 	}
 }
 
