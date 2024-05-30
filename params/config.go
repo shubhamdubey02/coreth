@@ -47,9 +47,9 @@ var (
 	// AvalancheMainnetChainID ...
 	AvalancheMainnetChainID = big.NewInt(32323)
 	// AvalancheMustangChainID ...
-	AvalancheMustangChainID = big.NewInt(43113)
+	AvalancheMustangChainID = big.NewInt(32322)
 	// AvalancheLocalChainID ...
-	AvalancheLocalChainID = big.NewInt(43112)
+	AvalancheLocalChainID = big.NewInt(32321)
 
 	errNonGenesisForkByHeight = errors.New("coreth only supports forking by height at the genesis block")
 )
