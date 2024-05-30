@@ -46,8 +46,8 @@ const maxJSONLen = 64 * 1024 * 1024 // 64MB
 var (
 	// AvalancheMainnetChainID ...
 	AvalancheMainnetChainID = big.NewInt(32323)
-	// AvalancheFujiChainID ...
-	AvalancheFujiChainID = big.NewInt(43113)
+	// AvalancheMustangChainID ...
+	AvalancheMustangChainID = big.NewInt(43113)
 	// AvalancheLocalChainID ...
 	AvalancheLocalChainID = big.NewInt(43112)
 
@@ -58,8 +58,8 @@ var (
 	// AvalancheMainnetChainConfig is the configuration for Avalanche Main Network
 	AvalancheMainnetChainConfig = getChainConfig(constants.MainnetID, AvalancheMainnetChainID)
 
-	// AvalancheFujiChainConfig is the configuration for the Fuji Test Network
-	AvalancheFujiChainConfig = getChainConfig(constants.FujiID, AvalancheFujiChainID)
+	// AvalancheMustangChainConfig is the configuration for the Mustang Test Network
+	AvalancheMustangChainConfig = getChainConfig(constants.MustangID, AvalancheMustangChainID)
 
 	// AvalancheLocalChainConfig is the configuration for the Avalanche Local Network
 	AvalancheLocalChainConfig = getChainConfig(constants.LocalID, AvalancheLocalChainID)

@@ -451,16 +451,16 @@ func (vm *VM) Initialize(
 	}
 
 	var extDataHashes map[common.Hash]common.Hash
-	// Set the chain config for mainnet/fuji chain IDs
+	// Set the chain config for mainnet/mustang chain IDs
 	switch {
 	case g.Config.ChainID.Cmp(params.AvalancheMainnetChainID) == 0:
 		config := *params.AvalancheMainnetChainConfig
 		g.Config = &config
 		extDataHashes = mainnetExtDataHashes
-	case g.Config.ChainID.Cmp(params.AvalancheFujiChainID) == 0:
-		config := *params.AvalancheFujiChainConfig
+	case g.Config.ChainID.Cmp(params.AvalancheMustangChainID) == 0:
+		config := *params.AvalancheMustangChainConfig
 		g.Config = &config
-		extDataHashes = fujiExtDataHashes
+		extDataHashes = mustangExtDataHashes
 	case g.Config.ChainID.Cmp(params.AvalancheLocalChainID) == 0:
 		config := *params.AvalancheLocalChainConfig
 		g.Config = &config
@@ -488,8 +488,8 @@ func (vm *VM) Initialize(
 	}
 
 	// Free the memory of the extDataHash map that is not used (i.e. if mainnet
-	// config, free fuji)
-	fujiExtDataHashes = nil
+	// config, free mustang)
+	mustangExtDataHashes = nil
 	mainnetExtDataHashes = nil
 
 	vm.chainID = g.Config.ChainID
@@ -641,10 +641,10 @@ func (vm *VM) Initialize(
 	}
 	vm.atomicTrie = vm.atomicBackend.AtomicTrie()
 
-	// Run the atomic trie height map repair in the background on mainnet/fuji
+	// Run the atomic trie height map repair in the background on mainnet/mustang
 	// TODO: remove after Durango
 	if vm.chainID.Cmp(params.AvalancheMainnetChainID) == 0 ||
-		vm.chainID.Cmp(params.AvalancheFujiChainID) == 0 {
+		vm.chainID.Cmp(params.AvalancheMustangChainID) == 0 {
 		_, lastCommitted := vm.atomicTrie.LastCommitted()
 		go vm.atomicTrie.RepairHeightMap(lastCommitted)
 	}
