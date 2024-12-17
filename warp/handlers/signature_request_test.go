@@ -7,16 +7,16 @@ import (
 	"context"
 	"testing"
 
+	"github.com/MetalBlockchain/metalgo/cache"
+	"github.com/MetalBlockchain/metalgo/database/memdb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp/payload"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/shubhamdubey02/coreth/utils"
 	"github.com/shubhamdubey02/coreth/warp"
 	"github.com/shubhamdubey02/coreth/warp/warptest"
-	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp/payload"
 	"github.com/stretchr/testify/require"
 )
 

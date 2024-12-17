@@ -9,10 +9,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 	"github.com/shubhamdubey02/coreth/precompile/contracts/warp"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 type AggregateSignatureResult struct {

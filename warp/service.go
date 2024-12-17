@@ -8,15 +8,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/validators"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp/payload"
 	"github.com/shubhamdubey02/coreth/peer"
 	"github.com/shubhamdubey02/coreth/warp/aggregator"
 	warpValidators "github.com/shubhamdubey02/coreth/warp/validators"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp/payload"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var errNoValidators = errors.New("cannot aggregate signatures from subnet with no validators")

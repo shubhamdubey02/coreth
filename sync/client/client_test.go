@@ -13,10 +13,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/ids"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
@@ -28,6 +26,8 @@ import (
 	handlerstats "github.com/shubhamdubey02/coreth/sync/handlers/stats"
 	"github.com/shubhamdubey02/coreth/sync/syncutils"
 	"github.com/shubhamdubey02/coreth/triedb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestGetCode(t *testing.T) {

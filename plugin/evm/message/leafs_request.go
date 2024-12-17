@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 const MaxCodeHashesPerRequest = 5

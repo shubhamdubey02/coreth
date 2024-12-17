@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/MetalBlockchain/metalgo/api"
+	"github.com/MetalBlockchain/metalgo/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgo/utils/profiler"
 )
 
 // Admin is the API service for admin API calls

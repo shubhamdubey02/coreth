@@ -7,12 +7,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/shubhamdubey02/coreth/warp"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // SignatureRequestHandler serves warp signature requests. It is a peer.RequestHandler for message.MessageSignatureRequest.

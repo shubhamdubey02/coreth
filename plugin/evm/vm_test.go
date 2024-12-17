@@ -30,31 +30,31 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shubhamdubey02/cryftgo/api/keystore"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/snow/validators/validatorstest"
-	"github.com/shubhamdubey02/cryftgo/upgrade"
-	"github.com/shubhamdubey02/cryftgo/utils/cb58"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgo/vms/components/avax"
-	"github.com/shubhamdubey02/cryftgo/vms/components/chain"
-	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/MetalBlockchain/metalgo/api/keystore"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/memdb"
+	"github.com/MetalBlockchain/metalgo/database/prefixdb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/snow/validators/validatorstest"
+	"github.com/MetalBlockchain/metalgo/upgrade"
+	"github.com/MetalBlockchain/metalgo/utils/cb58"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/formatting"
+	"github.com/MetalBlockchain/metalgo/utils/hashing"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/utils/timer/mockable"
+	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/vms/components/avax"
+	"github.com/MetalBlockchain/metalgo/vms/components/chain"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 
-	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/enginetest"
-	constantsEng "github.com/shubhamdubey02/cryftgo/utils/constants"
+	commonEng "github.com/MetalBlockchain/metalgo/snow/engine/common"
+	"github.com/MetalBlockchain/metalgo/snow/engine/enginetest"
+	constantsEng "github.com/MetalBlockchain/metalgo/utils/constants"
 
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/core"
@@ -63,8 +63,8 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/rpc"
 
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 	accountKeystore "github.com/shubhamdubey02/coreth/accounts/keystore"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 var (
@@ -78,7 +78,7 @@ var (
 	testAvaxAssetID  = ids.ID{1, 2, 3}
 	username         = "Johns"
 	password         = "CjasdjhiPeirbSenfeI13" // #nosec G101
-	genesisJSON      = func(cfg *params.ChainConfig) string {
+	genesisJSON = func(cfg *params.ChainConfig) string {
 		g := new(core.Genesis)
 		g.Difficulty = big.NewInt(0)
 		g.GasLimit = 0x5f5e100

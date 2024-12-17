@@ -6,10 +6,10 @@ package evm
 import (
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/codec/linearcodec"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 )
 
 // Codec does serialization and deserialization

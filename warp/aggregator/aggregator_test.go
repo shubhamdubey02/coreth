@@ -12,9 +12,9 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 )
 
 func newValidator(t testing.TB, weight uint64) (*bls.SecretKey, *avalancheWarp.Validator) {

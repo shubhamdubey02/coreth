@@ -7,16 +7,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/types"
@@ -24,6 +21,9 @@ import (
 	"github.com/shubhamdubey02/coreth/trie/trienode"
 	"github.com/shubhamdubey02/coreth/triedb"
 	"github.com/shubhamdubey02/coreth/triedb/hashdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

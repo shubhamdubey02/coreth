@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
 )
 
 var (

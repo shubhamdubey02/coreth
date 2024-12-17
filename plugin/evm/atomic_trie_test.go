@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/leveldb"
-	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/leveldb"
+	"github.com/MetalBlockchain/metalgo/database/memdb"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 )

@@ -21,9 +21,9 @@ import (
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/coreth/predicate"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/consensus/snowman"
+	"github.com/MetalBlockchain/metalgo/snow/engine/snowman/block"
 )
 
 var (

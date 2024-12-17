@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	utils_math "github.com/shubhamdubey02/cryftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/MetalBlockchain/metalgo/ids"
+	utils_math "github.com/MetalBlockchain/metalgo/utils/math"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/version"
 
 	"github.com/ethereum/go-ethereum/log"
 

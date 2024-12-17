@@ -6,9 +6,9 @@ package validators
 import (
 	"context"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/validators"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
 )
 
 var _ validators.State = (*State)(nil)

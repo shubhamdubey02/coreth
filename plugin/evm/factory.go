@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/vms"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/vms"
 )
 
 var (

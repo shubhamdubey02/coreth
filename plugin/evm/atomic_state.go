@@ -6,11 +6,11 @@ package evm
 import (
 	"fmt"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ AtomicState = &atomicState{}

@@ -31,9 +31,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/holiman/uint256"
+	"github.com/MetalBlockchain/metalgo/upgrade"
 	"github.com/shubhamdubey02/coreth/consensus"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/consensus/misc/eip4844"
@@ -43,7 +41,9 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/utils"
-	"github.com/shubhamdubey02/cryftgo/upgrade"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/holiman/uint256"
 	"golang.org/x/crypto/sha3"
 )
 

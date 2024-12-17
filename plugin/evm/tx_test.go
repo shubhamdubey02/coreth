@@ -15,9 +15,9 @@ import (
 
 	"github.com/shubhamdubey02/coreth/params"
 
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
 )
 
 func TestCalculateDynamicFee(t *testing.T) {

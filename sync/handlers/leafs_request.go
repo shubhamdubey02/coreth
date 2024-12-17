@@ -10,10 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/shubhamdubey02/coreth/core/state/snapshot"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
@@ -22,9 +21,10 @@ import (
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/triedb"
 	"github.com/shubhamdubey02/coreth/utils"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

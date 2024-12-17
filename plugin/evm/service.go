@@ -10,16 +10,16 @@ import (
 	"math/big"
 	"net/http"
 
+	"github.com/MetalBlockchain/metalgo/api"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/formatting"
+	"github.com/MetalBlockchain/metalgo/utils/json"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgo/utils/json"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // test constants

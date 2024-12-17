@@ -31,17 +31,17 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/utils/timer/mockable"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/rpc"
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/lru"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
 	"golang.org/x/exp/slices"
 )
 

@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/shubhamdubey02/coreth/rpc"
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 var _ Client = (*client)(nil)

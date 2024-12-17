@@ -34,10 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/utils/timer/mockable"
 	"github.com/shubhamdubey02/coreth/accounts"
 	"github.com/shubhamdubey02/coreth/consensus"
 	"github.com/shubhamdubey02/coreth/core"
@@ -58,7 +55,10 @@ import (
 	"github.com/shubhamdubey02/coreth/node"
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/rpc"
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // Config contains the configuration options of the ETH protocol.

@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/MetalBlockchain/metalgo/cache"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/network/p2p/gossip"
+	"github.com/MetalBlockchain/metalgo/snow"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/network/p2p/gossip"
-	"github.com/shubhamdubey02/cryftgo/snow"
 
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/metrics"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

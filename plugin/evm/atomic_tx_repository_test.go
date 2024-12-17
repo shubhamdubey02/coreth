@@ -7,21 +7,21 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/prefixdb"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/utils"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgo/utils"
 
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/database/memdb"
+	"github.com/MetalBlockchain/metalgo/ids"
 )
 
 // addTxs writes [txsPerHeight] txs for heights ranging in [fromHeight, toHeight) directly to [acceptedAtomicTxDB],

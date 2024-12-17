@@ -8,9 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
@@ -19,8 +18,9 @@ import (
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/shubhamdubey02/coreth/sync/handlers/stats"
 	"github.com/shubhamdubey02/coreth/triedb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

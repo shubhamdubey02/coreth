@@ -7,15 +7,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/shubhamdubey02/cryftgo/api/metrics"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgo/snow/validators/validatorstest"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/api/metrics"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/snow/validators"
+	"github.com/MetalBlockchain/metalgo/snow/validators/validatorstest"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 )
 
 var (

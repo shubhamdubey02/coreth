@@ -14,11 +14,11 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/network/p2p"
-	"github.com/shubhamdubey02/cryftgo/network/p2p/gossip"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/network/p2p"
+	"github.com/MetalBlockchain/metalgo/network/p2p/gossip"
+	"github.com/MetalBlockchain/metalgo/snow/engine/common"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/txpool"

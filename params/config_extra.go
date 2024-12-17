@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/utils"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/upgrade"
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/upgrade"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 const (

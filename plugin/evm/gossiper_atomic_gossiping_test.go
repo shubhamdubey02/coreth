@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/set"
 	"github.com/stretchr/testify/assert"
 
-	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	commonEng "github.com/MetalBlockchain/metalgo/snow/engine/common"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )

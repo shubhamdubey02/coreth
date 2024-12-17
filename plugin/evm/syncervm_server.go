@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/snow/engine/snowman/block"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 type stateSyncServerConfig struct {

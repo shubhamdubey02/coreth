@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/utils"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

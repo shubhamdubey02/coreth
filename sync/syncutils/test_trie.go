@@ -9,13 +9,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/holiman/uint256"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/shubhamdubey02/coreth/accounts/keystore"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/trie/trienode"
 	"github.com/shubhamdubey02/coreth/triedb"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/holiman/uint256"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"

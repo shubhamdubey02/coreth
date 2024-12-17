@@ -7,11 +7,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/validators"
+	"github.com/MetalBlockchain/metalgo/snow/validators/validatorsmock"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
 	"github.com/shubhamdubey02/coreth/utils"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgo/snow/validators/validatorsmock"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

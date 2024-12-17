@@ -8,9 +8,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	commonEng "github.com/MetalBlockchain/metalgo/snow/engine/common"
+	"github.com/MetalBlockchain/metalgo/snow/engine/snowman/block"
+	"github.com/MetalBlockchain/metalgo/vms/components/chain"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/state/snapshot"
 	"github.com/shubhamdubey02/coreth/eth"
@@ -18,12 +21,9 @@ import (
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/coreth/sync/statesync"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgo/vms/components/chain"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

@@ -36,10 +36,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/holiman/uint256"
+	"github.com/MetalBlockchain/metalgo/utils/timer/mockable"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 	"github.com/shubhamdubey02/coreth/consensus"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/consensus/misc/eip4844"
@@ -51,8 +49,10 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/coreth/predicate"
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/holiman/uint256"
 )
 
 const (

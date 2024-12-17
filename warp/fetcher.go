@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp/payload"
 	"github.com/shubhamdubey02/coreth/warp/aggregator"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp/payload"
 )
 
 var _ aggregator.SignatureGetter = (*apiFetcher)(nil)

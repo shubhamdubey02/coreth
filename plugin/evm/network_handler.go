@@ -6,7 +6,8 @@ package evm
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/shubhamdubey02/coreth/metrics"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	syncHandlers "github.com/shubhamdubey02/coreth/sync/handlers"
@@ -14,8 +15,7 @@ import (
 	"github.com/shubhamdubey02/coreth/triedb"
 	"github.com/shubhamdubey02/coreth/warp"
 	warpHandlers "github.com/shubhamdubey02/coreth/warp/handlers"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 var _ message.RequestHandler = &networkHandler{}

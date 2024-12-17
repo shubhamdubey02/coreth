@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ Request = CodeRequest{}

@@ -10,22 +10,22 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/holiman/uint256"
 	"github.com/shubhamdubey02/coreth/core/state"
 	"github.com/shubhamdubey02/coreth/params"
+	"github.com/holiman/uint256"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/utils"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/math"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/vms/components/avax"
+	"github.com/MetalBlockchain/metalgo/vms/components/verify"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/vms/components/avax"
-	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 var (

@@ -31,10 +31,10 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
+	"github.com/shubhamdubey02/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/shubhamdubey02/coreth/metrics"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 // The fields below define the low level database schema prefixing.

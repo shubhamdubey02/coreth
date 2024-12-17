@@ -8,16 +8,16 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/prefixdb"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
+	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	syncclient "github.com/shubhamdubey02/coreth/sync/client"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 var _ AtomicBackend = &atomicBackend{}

@@ -7,17 +7,17 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/MetalBlockchain/metalgo/utils"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/codec/linearcodec"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/shubhamdubey02/coreth/core/state"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 type TestUnsignedTx struct {

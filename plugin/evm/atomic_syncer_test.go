@@ -12,11 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/memdb"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	syncclient "github.com/shubhamdubey02/coreth/sync/client"
@@ -25,6 +24,7 @@ import (
 	"github.com/shubhamdubey02/coreth/sync/syncutils"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/triedb"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 const commitInterval = 1024

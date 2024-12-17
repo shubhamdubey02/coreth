@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/shubhamdubey02/cryftgo/ids"
-	bls "github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	warp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
+	ids "github.com/MetalBlockchain/metalgo/ids"
+	bls "github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	warp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 	gomock "go.uber.org/mock/gomock"
 )
 

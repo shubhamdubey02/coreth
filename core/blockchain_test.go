@@ -9,10 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/holiman/uint256"
+	"github.com/MetalBlockchain/metalgo/upgrade"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/state"
@@ -21,7 +18,10 @@ import (
 	"github.com/shubhamdubey02/coreth/core/vm"
 	"github.com/shubhamdubey02/coreth/eth/tracers/logger"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/upgrade"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/holiman/uint256"
 )
 
 var (

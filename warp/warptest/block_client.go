@@ -8,11 +8,11 @@ import (
 	"context"
 	"slices"
 
-	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman/snowmantest"
-	"github.com/shubhamdubey02/cryftgo/snow/snowtest"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/consensus/snowman"
+	"github.com/MetalBlockchain/metalgo/snow/consensus/snowman/snowmantest"
+	"github.com/MetalBlockchain/metalgo/snow/snowtest"
 )
 
 // EmptyBlockClient returns an error if a block is requested

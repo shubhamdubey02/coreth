@@ -9,17 +9,17 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/ids"
+	engCommon "github.com/MetalBlockchain/metalgo/snow/engine/common"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/vms/components/avax"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	engCommon "github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgo/vms/components/avax"
-	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 // createExportTxOptions adds funds to shared memory, imports them, and returns a list of export transactions

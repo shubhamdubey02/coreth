@@ -7,18 +7,18 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/shubhamdubey02/coreth/params"
 
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgo/vms/components/avax"
-	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	"github.com/MetalBlockchain/metalgo/vms/components/avax"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

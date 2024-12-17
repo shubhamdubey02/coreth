@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/holiman/uint256"
+	"github.com/MetalBlockchain/metalgo/utils/timer"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/txpool"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/cryftgo/utils/timer"
+	"github.com/holiman/uint256"
 
+	"github.com/MetalBlockchain/metalgo/snow"
+	commonEng "github.com/MetalBlockchain/metalgo/snow/engine/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
 )
 
 const (

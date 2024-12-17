@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/utils/ulimit"
-	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/ulimit"
+	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm"
 )

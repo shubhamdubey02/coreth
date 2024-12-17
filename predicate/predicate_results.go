@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/codec/linearcodec"
+	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

@@ -6,10 +6,10 @@ package rawdb
 import (
 	"encoding/binary"
 
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 // ReadSyncRoot reads the root corresponding to the main trie of an in-progress

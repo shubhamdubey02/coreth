@@ -7,13 +7,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/chains/atomic"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 const atomicTrieKeyLen = wrappers.LongLen + common.HashLength

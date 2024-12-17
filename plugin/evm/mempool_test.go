@@ -6,9 +6,9 @@ package evm
 import (
 	"testing"
 
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,8 +9,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/database/versiondb"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 

@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/ids"
 )
 
 var (

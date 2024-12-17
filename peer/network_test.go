@@ -12,22 +12,22 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MetalBlockchain/metalgo/network/p2p"
+	"github.com/MetalBlockchain/metalgo/snow/engine/common"
+	"github.com/MetalBlockchain/metalgo/snow/engine/enginetest"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/set"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/shubhamdubey02/cryftgo/network/p2p"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/enginetest"
-	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/codec/linearcodec"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/version"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp/payload"
+	"github.com/MetalBlockchain/metalgo/snow/engine/common"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp/payload"
 )
 
 const (

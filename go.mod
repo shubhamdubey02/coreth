@@ -3,7 +3,7 @@ module github.com/shubhamdubey02/coreth
 go 1.22.8
 
 require (
-	github.com/shubhamdubey02/cryftgo v1.11.13-rc.2
+	github.com/MetalBlockchain/metalgo v1.11.13-rc.1
 	github.com/VictoriaMetrics/fastcache v1.12.1
 	github.com/cespare/cp v0.1.0
 	github.com/crate-crypto/go-ipa v0.0.0-20231025140028-3c0104f4b233
@@ -131,3 +131,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
+
+replace github.com/ava-labs/coreth => ../coreth

@@ -6,8 +6,8 @@ package evm
 import (
 	"errors"
 
+	"github.com/MetalBlockchain/metalgo/database"
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 var (

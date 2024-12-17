@@ -6,10 +6,10 @@ package evm
 import (
 	"errors"
 
+	"github.com/MetalBlockchain/metalgo/database/encdb"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/cryftgo/database/encdb"
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
 )
 
 // Key in the database whose corresponding value is the list of

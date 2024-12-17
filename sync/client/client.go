@@ -11,24 +11,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/ids"
 
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/sync/client/stats"
 
-	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/MetalBlockchain/metalgo/codec"
+	"github.com/MetalBlockchain/metalgo/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/peer"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 const (

@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
+	utils_math "github.com/MetalBlockchain/metalgo/utils/math"
+	"github.com/MetalBlockchain/metalgo/utils/timer"
+	"github.com/shubhamdubey02/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/coreth/metrics"
-	utils_math "github.com/shubhamdubey02/cryftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgo/utils/timer"
 )
 
 const (

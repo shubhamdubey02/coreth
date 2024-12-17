@@ -13,7 +13,7 @@ import (
 	big "math/big"
 	reflect "reflect"
 
-	snow "github.com/shubhamdubey02/cryftgo/snow"
+	snow "github.com/MetalBlockchain/metalgo/snow"
 	precompileconfig "github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	common "github.com/ethereum/go-ethereum/common"
 	uint256 "github.com/holiman/uint256"

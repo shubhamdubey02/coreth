@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/MetalBlockchain/metalgo/utils/timer/mockable"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
 	"github.com/shubhamdubey02/coreth/constants"
 	"github.com/shubhamdubey02/coreth/core"
@@ -34,7 +34,7 @@ import (
 	"github.com/shubhamdubey02/coreth/node"
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/rpc"
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 var _ eth.PushGossiper = (*fakePushGossiper)(nil)

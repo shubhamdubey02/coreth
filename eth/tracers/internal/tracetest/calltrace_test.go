@@ -34,10 +34,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/types"
@@ -45,8 +41,12 @@ import (
 	"github.com/shubhamdubey02/coreth/eth/tracers"
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/tests"
-	"github.com/shubhamdubey02/cryftgo/upgrade"
-	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/upgrade"
+	"github.com/MetalBlockchain/metalgo/utils/constants"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 type callContext struct {

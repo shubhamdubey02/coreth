@@ -9,9 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
 	"github.com/shubhamdubey02/coreth/core/state/snapshot"
 	"github.com/shubhamdubey02/coreth/core/types"
@@ -20,7 +18,9 @@ import (
 	"github.com/shubhamdubey02/coreth/sync/syncutils"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/coreth/triedb"
-	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/stretchr/testify/assert"
 )
 

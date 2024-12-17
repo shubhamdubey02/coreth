@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/MetalBlockchain/metalgo/codec"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 )
 
 const (

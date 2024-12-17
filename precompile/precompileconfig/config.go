@@ -5,10 +5,10 @@
 package precompileconfig
 
 import (
+	"github.com/MetalBlockchain/metalgo/snow"
+	"github.com/MetalBlockchain/metalgo/snow/engine/snowman/block"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 // StatefulPrecompileConfig defines the interface for a stateful precompile to

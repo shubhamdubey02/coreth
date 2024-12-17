@@ -6,7 +6,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 )
 
 // Minimum Gas Price

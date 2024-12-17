@@ -8,12 +8,12 @@ import (
 	"math"
 	"testing"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgo/snow/validators/validatorsmock"
-	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgo/utils/set"
-	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/snow/validators"
+	"github.com/MetalBlockchain/metalgo/snow/validators/validatorsmock"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	"github.com/MetalBlockchain/metalgo/utils/set"
+	avalancheWarp "github.com/MetalBlockchain/metalgo/vms/platformvm/warp"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )
@@ -27,7 +27,7 @@ type signatureTest struct {
 	err       error
 }
 
-// This test copies the test coverage from https://github.com/shubhamdubey02/cryftgo/blob/0117ab96/vms/platformvm/warp/signature_test.go#L137.
+// This test copies the test coverage from https://github.com/MetalBlockchain/metalgo/blob/0117ab96/vms/platformvm/warp/signature_test.go#L137.
 // These tests are only expected to fail if there is a breaking change in AvalancheGo that unexpectedly changes behavior.
 func TestSignatureVerification(t *testing.T) {
 	tests := []signatureTest{
