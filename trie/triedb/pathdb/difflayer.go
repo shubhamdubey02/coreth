@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/trie/trienode"
-	"github.com/shubhamdubey02/corethreth/trie/triestate"
+	"github.com/shubhamdubey02/coreth/trie/triestate"
 )
 
 // diffLayer represents a collection of modifications made to the in-memory tries

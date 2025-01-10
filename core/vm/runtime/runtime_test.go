@@ -36,18 +36,18 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
 	"github.com/shubhamdubey02/coreth/accounts/abi"
-	"github.com/shubhamdubey02/corethreth/consensus"
-	"github.com/shubhamdubey02/corethreth/core"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/eth/tracers"
-	"github.com/shubhamdubey02/corethreth/eth/tracers/logger"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/consensus"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/eth/tracers"
+	"github.com/shubhamdubey02/coreth/eth/tracers/logger"
+	"github.com/shubhamdubey02/coreth/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/shubhamdubey02/corethreth/eth/tracers/js"
+	_ "github.com/shubhamdubey02/coreth/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

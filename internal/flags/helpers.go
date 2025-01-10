@@ -34,7 +34,7 @@ import (
 
 	"github.com/mattn/go-isatty"
 	"github.com/shubhamdubey02/coreth/internal/version"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/urfave/cli/v2"
 )
 

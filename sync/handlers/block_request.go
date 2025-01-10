@@ -15,7 +15,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
-	"github.com/shubhamdubey02/corethreth/sync/handlers/stats"
+	"github.com/shubhamdubey02/coreth/sync/handlers/stats"
 )
 
 const (

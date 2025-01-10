@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 var activators = map[int]func(*JumpTable){

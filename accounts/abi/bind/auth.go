@@ -37,9 +37,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/accounts"
-	"github.com/shubhamdubey02/corethreth/accounts/external"
-	"github.com/shubhamdubey02/corethreth/accounts/keystore"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/accounts/external"
+	"github.com/shubhamdubey02/coreth/accounts/keystore"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

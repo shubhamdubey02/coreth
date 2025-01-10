@@ -31,7 +31,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/shubhamdubey02/coreth/accounts/abi"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

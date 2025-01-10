@@ -15,8 +15,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
-	syncclient "github.com/shubhamdubey02/corethreth/sync/client"
-	"github.com/shubhamdubey02/corethreth/trie"
+	syncclient "github.com/shubhamdubey02/coreth/sync/client"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 var (

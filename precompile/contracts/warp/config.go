@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/predicate"
-	warpValidators "github.com/shubhamdubey02/corethreth/warp/validators"
+	"github.com/shubhamdubey02/coreth/predicate"
+	warpValidators "github.com/shubhamdubey02/coreth/warp/validators"
 	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
 )

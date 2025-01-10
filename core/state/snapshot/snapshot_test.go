@@ -37,7 +37,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

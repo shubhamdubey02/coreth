@@ -32,8 +32,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // additional slots in the header cache to allow processing queries

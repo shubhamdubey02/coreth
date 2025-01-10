@@ -33,8 +33,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/accounts"
-	"github.com/shubhamdubey02/corethreth/accounts/external"
-	"github.com/shubhamdubey02/corethreth/accounts/keystore"
+	"github.com/shubhamdubey02/coreth/accounts/external"
+	"github.com/shubhamdubey02/coreth/accounts/keystore"
 )
 
 // Config represents a small collection of configuration values to fine tune the

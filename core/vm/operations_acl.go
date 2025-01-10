@@ -32,7 +32,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 func makeGasSStoreFunc() gasFunc {

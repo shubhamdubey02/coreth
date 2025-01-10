@@ -32,10 +32,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/consensus"
-	"github.com/shubhamdubey02/corethreth/consensus/misc/eip4844"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/predicate"
+	"github.com/shubhamdubey02/coreth/consensus/misc/eip4844"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/predicate"
 	//"github.com/ethereum/go-ethereum/log"
 )
 

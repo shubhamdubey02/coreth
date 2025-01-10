@@ -35,10 +35,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	cmath "github.com/ethereum/go-ethereum/common/math"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/utils"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/utils"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 // ExecutionResult includes all output after executing given evm

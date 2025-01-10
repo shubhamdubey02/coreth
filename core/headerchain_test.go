@@ -34,11 +34,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/consensus"
-	"github.com/shubhamdubey02/corethreth/consensus/dummy"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/consensus/dummy"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/params"
 )
 
 func verifyUnbrokenCanonchain(bc *BlockChain) error {

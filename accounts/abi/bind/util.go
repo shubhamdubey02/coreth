@@ -34,7 +34,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/coreth/interfaces"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

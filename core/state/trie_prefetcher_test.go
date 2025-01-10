@@ -33,7 +33,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 const maxConcurrency = 4

@@ -36,7 +36,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the state will be

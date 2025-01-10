@@ -34,8 +34,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/bloombits"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

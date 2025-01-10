@@ -32,7 +32,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/eth/tracers"
+	"github.com/shubhamdubey02/coreth/eth/tracers"
 )
 
 func init() {

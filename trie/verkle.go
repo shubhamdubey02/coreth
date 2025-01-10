@@ -27,8 +27,8 @@ import (
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
-	"github.com/shubhamdubey02/corethreth/trie/utils"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/trie/utils"
 )
 
 var (

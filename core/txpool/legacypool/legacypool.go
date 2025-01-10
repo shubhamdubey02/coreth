@@ -41,13 +41,13 @@ import (
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/consensus/dummy"
-	"github.com/shubhamdubey02/corethreth/core"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/metrics"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/metrics"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 const (

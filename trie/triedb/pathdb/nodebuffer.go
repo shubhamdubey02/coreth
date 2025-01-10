@@ -36,7 +36,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
 )
 
 // nodebuffer is a collection of modified trie nodes to aggregate the disk

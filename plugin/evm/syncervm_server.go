@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 type stateSyncServerConfig struct {

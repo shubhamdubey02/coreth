@@ -18,12 +18,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
-	syncclient "github.com/shubhamdubey02/corethreth/sync/client"
-	"github.com/shubhamdubey02/corethreth/sync/handlers"
-	handlerstats "github.com/shubhamdubey02/corethreth/sync/handlers/stats"
-	"github.com/shubhamdubey02/corethreth/sync/syncutils"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	syncclient "github.com/shubhamdubey02/coreth/sync/client"
+	"github.com/shubhamdubey02/coreth/sync/handlers"
+	handlerstats "github.com/shubhamdubey02/coreth/sync/handlers/stats"
+	"github.com/shubhamdubey02/coreth/sync/syncutils"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 const commitInterval = 1024

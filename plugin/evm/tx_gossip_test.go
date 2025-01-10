@@ -33,8 +33,8 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 func TestEthTxGossip(t *testing.T) {

@@ -34,16 +34,16 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/shubhamdubey02/coreth/accounts/abi/bind"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/interfaces"
+	"github.com/shubhamdubey02/coreth/rpc"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
 	// Force-load precompiles to trigger registration
-	_ "github.com/shubhamdubey02/corethreth/precompile/registry"
+	_ "github.com/shubhamdubey02/coreth/precompile/registry"
 )
 
 // Verify that Client implements required interfaces

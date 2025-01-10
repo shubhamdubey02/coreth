@@ -34,7 +34,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/coreth/interfaces"
 	"golang.org/x/crypto/sha3"
 )
 

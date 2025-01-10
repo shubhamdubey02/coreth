@@ -30,13 +30,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/state/snapshot"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/hashdb"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/state/snapshot"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/shubhamdubey02/coreth/trie/triedb/hashdb"
+	"github.com/shubhamdubey02/coreth/trie/triedb/pathdb"
 )
 
 func MakePreState(db ethdb.Database, accounts core.GenesisAlloc, snapshotter bool, scheme string) (*trie.Database, *snapshot.Tree, *state.StateDB) {

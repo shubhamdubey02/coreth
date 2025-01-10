@@ -35,12 +35,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/eth/tracers"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/eth/tracers"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 // noopReleaser is returned in case there is no operation expected

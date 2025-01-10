@@ -15,7 +15,7 @@ func TestMain(m *testing.M) {
 	opts := []goleak.Option{
 		// No good way to shut down these goroutines:
 		goleak.IgnoreTopFunction("github.com/shubhamdubey02/coreth/core/state/snapshot.(*diskLayer).generate"),
-		goleak.IgnoreTopFunction("github.com/shubhamdubey02/corethreth/metrics.(*meterArbiter).tick"),
+		goleak.IgnoreTopFunction("github.com/shubhamdubey02/coreth/metrics.(*meterArbiter).tick"),
 		goleak.IgnoreTopFunction("github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain"),
 	}
 	goleak.VerifyTestMain(m, opts...)

@@ -45,12 +45,12 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state/snapshot"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/hashdb"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/core/state/snapshot"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/shubhamdubey02/coreth/trie/triedb/hashdb"
+	"github.com/shubhamdubey02/coreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to

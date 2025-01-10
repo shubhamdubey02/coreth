@@ -32,7 +32,7 @@ import (
 	"sort"
 
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 // Forks table defines supported forks and their chain config.

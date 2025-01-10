@@ -36,10 +36,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 func TestMemoryGasCost(t *testing.T) {

@@ -35,7 +35,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 )
 
 // ReadTxLookupEntry retrieves the positional metadata associated with a transaction

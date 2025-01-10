@@ -10,8 +10,8 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/shubhamdubey02/coreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 // GossipHandler handles incoming gossip messages

@@ -24,9 +24,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
-	"github.com/shubhamdubey02/corethreth/trie/utils"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/coreth/trie/utils"
 )
 
 var (

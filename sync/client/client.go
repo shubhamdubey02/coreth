@@ -14,7 +14,7 @@ import (
 	"github.com/shubhamdubey02/cryftgo/ids"
 
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/sync/client/stats"
+	"github.com/shubhamdubey02/coreth/sync/client/stats"
 
 	"github.com/shubhamdubey02/cryftgoftgo/codec"
 	"github.com/shubhamdubey02/cryftgoftgo/version"
@@ -24,11 +24,11 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/peer"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/peer"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 const (

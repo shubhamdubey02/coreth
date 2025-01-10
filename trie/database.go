@@ -23,9 +23,9 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/trie/triedb/hashdb"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
-	"github.com/shubhamdubey02/corethreth/trie/triestate"
+	"github.com/shubhamdubey02/coreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/trie/triestate"
 )
 
 // Config defines all necessary options for database.

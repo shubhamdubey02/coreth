@@ -31,7 +31,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 )
 
 // StateDB is an EVM database for full state querying.

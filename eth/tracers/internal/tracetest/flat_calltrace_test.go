@@ -23,13 +23,13 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/tests"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/tests"
 
 	// Force-load the native, to trigger registration
-	"github.com/shubhamdubey02/corethreth/eth/tracers"
+	"github.com/shubhamdubey02/coreth/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

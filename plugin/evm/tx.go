@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/shubhamdubey02/coreth/core/state"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
 	"github.com/shubhamdubey02/cryftgoftgo/codec"

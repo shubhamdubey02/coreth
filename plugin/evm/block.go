@@ -17,11 +17,11 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/predicate"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/predicate"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
 	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"

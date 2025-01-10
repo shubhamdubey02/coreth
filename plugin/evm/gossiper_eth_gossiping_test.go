@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 func fundAddressByGenesis(addrs []common.Address) (string, error) {

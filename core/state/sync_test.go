@@ -23,10 +23,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/hashdb"
-	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/shubhamdubey02/coreth/trie/triedb/hashdb"
+	"github.com/shubhamdubey02/coreth/trie/triedb/pathdb"
 )
 
 // testAccount is the data associated with an account used by the state tests.

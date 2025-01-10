@@ -8,8 +8,8 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/coreth/accounts/abi"
-	"github.com/shubhamdubey02/corethreth/precompile/contract"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/precompile/contract"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
 

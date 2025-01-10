@@ -33,8 +33,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
-	"github.com/shubhamdubey02/corethreth/trie/triestate"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

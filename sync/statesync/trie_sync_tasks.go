@@ -11,9 +11,9 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/sync/syncutils"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/sync/syncutils"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 var (

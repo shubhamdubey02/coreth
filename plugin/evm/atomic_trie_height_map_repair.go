@@ -9,10 +9,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/shubhamdubey02/cryftgo/database"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie/trienode"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
+	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 const (

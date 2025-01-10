@@ -11,7 +11,7 @@ import (
 	"slices"
 
 	"github.com/shubhamdubey02/coreth/core/state"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

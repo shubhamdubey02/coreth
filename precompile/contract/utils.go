@@ -10,7 +10,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/accounts/abi"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 // Gas costs for stateful precompiles

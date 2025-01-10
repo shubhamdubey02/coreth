@@ -28,8 +28,8 @@ package core
 
 import (
 	"github.com/shubhamdubey02/coreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

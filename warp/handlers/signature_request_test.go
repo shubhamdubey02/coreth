@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
-	"github.com/shubhamdubey02/corethreth/utils"
-	"github.com/shubhamdubey02/corethreth/warp"
+	"github.com/shubhamdubey02/coreth/utils"
+	"github.com/shubhamdubey02/coreth/warp"
 	"github.com/shubhamdubey02/cryftgo/database/memdb"
 	"github.com/shubhamdubey02/cryftgoftgo/ids"
 	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"

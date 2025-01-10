@@ -101,10 +101,10 @@ import (
 	"strings"
 	"errors"
 
-	"github.com/shubhamdubey02/corethreth/accounts/abi"
-	"github.com/shubhamdubey02/corethreth/accounts/abi/bind"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/coreth/accounts/abi"
+	"github.com/shubhamdubey02/coreth/accounts/abi/bind"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

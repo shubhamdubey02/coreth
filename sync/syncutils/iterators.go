@@ -6,7 +6,7 @@ package syncutils
 import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/shubhamdubey02/coreth/core/state/snapshot"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 var (

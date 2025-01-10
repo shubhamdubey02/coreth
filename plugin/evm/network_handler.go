@@ -8,12 +8,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/shubhamdubey02/coreth/metrics"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
-	syncHandlers "github.com/shubhamdubey02/corethreth/sync/handlers"
-	syncStats "github.com/shubhamdubey02/corethreth/sync/handlers/stats"
-	"github.com/shubhamdubey02/corethreth/trie"
-	"github.com/shubhamdubey02/corethreth/warp"
-	warpHandlers "github.com/shubhamdubey02/corethreth/warp/handlers"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	syncHandlers "github.com/shubhamdubey02/coreth/sync/handlers"
+	syncStats "github.com/shubhamdubey02/coreth/sync/handlers/stats"
+	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/shubhamdubey02/coreth/warp"
+	warpHandlers "github.com/shubhamdubey02/coreth/warp/handlers"
 	"github.com/shubhamdubey02/cryftgo/codec"
 	"github.com/shubhamdubey02/cryftgoftgo/ids"
 )

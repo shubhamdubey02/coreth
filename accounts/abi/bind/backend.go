@@ -33,7 +33,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/coreth/interfaces"
 )
 
 var (

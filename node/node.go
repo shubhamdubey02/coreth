@@ -28,7 +28,7 @@ package node
 
 import (
 	"github.com/shubhamdubey02/coreth/accounts"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // Node is a container on which services can be registered.

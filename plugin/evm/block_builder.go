@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/cryftgo/utils/timer"
 
 	"github.com/ethereum/go-ethereum/log"

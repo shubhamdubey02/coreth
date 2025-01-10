@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/shubhamdubey02/coreth/core/txpool/legacypool"
-	"github.com/shubhamdubey02/corethreth/eth"
+	"github.com/shubhamdubey02/coreth/eth"
 	"github.com/spf13/cast"
 )
 

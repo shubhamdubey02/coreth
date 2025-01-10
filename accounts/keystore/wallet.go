@@ -31,8 +31,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/accounts"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/interfaces"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

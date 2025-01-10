@@ -25,7 +25,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/internal/blocktest"
+	"github.com/shubhamdubey02/coreth/internal/blocktest"
 )
 
 var newTestHasher = blocktest.NewHasher

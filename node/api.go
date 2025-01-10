@@ -30,7 +30,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/internal/debug"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

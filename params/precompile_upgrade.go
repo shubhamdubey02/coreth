@@ -10,8 +10,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/precompile/modules"
-	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 var errNoKey = errors.New("PrecompileUpgrade cannot be empty")

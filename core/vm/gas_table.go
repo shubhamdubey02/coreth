@@ -32,7 +32,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

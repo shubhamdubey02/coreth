@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 
 	"github.com/shubhamdubey02/coreth/precompile/modules"
-	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 )
 
 type Precompiles map[string]precompileconfig.Config

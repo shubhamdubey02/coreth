@@ -39,9 +39,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/interfaces"
-	"github.com/shubhamdubey02/corethreth/internal/ethapi"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/interfaces"
+	"github.com/shubhamdubey02/coreth/internal/ethapi"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 var (

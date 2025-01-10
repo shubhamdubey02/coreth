@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/metrics"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 // triePrefetchMetricsPrefix is the prefix under which to publish the metrics.

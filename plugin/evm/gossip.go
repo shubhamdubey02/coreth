@@ -20,9 +20,9 @@ import (
 	"github.com/shubhamdubey02/cryftgoftgo/network/p2p/gossip"
 
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/eth"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/eth"
 )
 
 const pendingTxsBuffer = 10

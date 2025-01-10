@@ -36,9 +36,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/ethclient"
-	"github.com/shubhamdubey02/corethreth/interfaces"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/ethclient"
+	"github.com/shubhamdubey02/coreth/interfaces"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

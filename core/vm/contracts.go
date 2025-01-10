@@ -41,9 +41,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto/bn256"
 	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/shubhamdubey02/coreth/params"
-	"github.com/shubhamdubey02/corethreth/precompile/contract"
-	"github.com/shubhamdubey02/corethreth/precompile/modules"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/precompile/contract"
+	"github.com/shubhamdubey02/coreth/precompile/modules"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 	"golang.org/x/crypto/ripemd160"
 )
 

@@ -23,11 +23,11 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/shubhamdubey02/coreth/eth/filters"
-	"github.com/shubhamdubey02/corethreth/internal/ethapi"
-	"github.com/shubhamdubey02/corethreth/metrics"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
-	"github.com/shubhamdubey02/corethreth/trie"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/internal/ethapi"
+	"github.com/shubhamdubey02/coreth/metrics"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/trie"
+	"github.com/shubhamdubey02/coreth/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -56,15 +56,15 @@ import (
 
 	commonEng "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
 
-	"github.com/shubhamdubey02/corethreth/consensus/dummy"
-	"github.com/shubhamdubey02/corethreth/core"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/eth"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/consensus/dummy"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/eth"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/rpc"
 
-	"github.com/shubhamdubey02/corethreth/accounts/abi"
-	accountKeystore "github.com/shubhamdubey02/corethreth/accounts/keystore"
+	"github.com/shubhamdubey02/coreth/accounts/abi"
+	accountKeystore "github.com/shubhamdubey02/coreth/accounts/keystore"
 	avalancheWarp "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
 )
 

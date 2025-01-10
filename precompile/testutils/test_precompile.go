@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/precompile/contract"
-	"github.com/shubhamdubey02/corethreth/precompile/modules"
-	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/precompile/modules"
+	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/utils"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

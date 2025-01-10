@@ -36,7 +36,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 // AdminAPI is the collection of Ethereum full node related APIs for node

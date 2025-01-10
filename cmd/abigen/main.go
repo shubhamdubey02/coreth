@@ -38,8 +38,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/accounts/abi/bind"
-	"github.com/shubhamdubey02/corethreth/cmd/utils"
-	"github.com/shubhamdubey02/corethreth/internal/flags"
+	"github.com/shubhamdubey02/coreth/cmd/utils"
+	"github.com/shubhamdubey02/coreth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

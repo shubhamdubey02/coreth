@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/coreth/metrics"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 var (

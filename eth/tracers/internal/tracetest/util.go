@@ -15,7 +15,7 @@ import (
 
 	// Force-load native and js packages, to trigger registration
 	_ "github.com/shubhamdubey02/coreth/eth/tracers/js"
-	_ "github.com/shubhamdubey02/corethreth/eth/tracers/native"
+	_ "github.com/shubhamdubey02/coreth/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

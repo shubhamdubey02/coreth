@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/shubhamdubey02/coreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 // txWithMinerFee wraps a transaction with its gas price or effective miner gasTipCap

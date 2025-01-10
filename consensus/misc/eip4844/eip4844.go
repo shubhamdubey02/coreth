@@ -32,7 +32,7 @@ import (
 	"math/big"
 
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 )
 
 var (

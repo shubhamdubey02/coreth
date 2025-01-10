@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/core/types"
-	syncclient "github.com/shubhamdubey02/corethreth/sync/client"
+	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
 	"github.com/shubhamdubey02/cryftgoftgo/codec"
 	"github.com/shubhamdubey02/cryftgoftgo/database"

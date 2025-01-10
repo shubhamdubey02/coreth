@@ -28,15 +28,15 @@
 package miner
 
 import (
-	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/shubhamdubey02/coreth/consensus"
-	"github.com/shubhamdubey02/corethreth/core"
-	"github.com/shubhamdubey02/corethreth/core/txpool"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 )
 
 // Backend wraps all methods required for mining.

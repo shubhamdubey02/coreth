@@ -36,14 +36,14 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/shubhamdubey02/coreth/accounts"
-	"github.com/shubhamdubey02/corethreth/consensus"
-	"github.com/shubhamdubey02/corethreth/core"
-	"github.com/shubhamdubey02/corethreth/core/bloombits"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/consensus"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/coreth/core/bloombits"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 // Backend interface provides the common API services (that are provided by

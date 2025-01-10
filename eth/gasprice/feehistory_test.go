@@ -33,12 +33,12 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/coreth/core"
-	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

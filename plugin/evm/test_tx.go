@@ -10,7 +10,7 @@ import (
 	"github.com/shubhamdubey02/cryftgo/utils"
 
 	"github.com/shubhamdubey02/coreth/core/state"
-	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/cryftgoftgo/chains/atomic"
 	"github.com/shubhamdubey02/cryftgoftgo/codec"
 	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"

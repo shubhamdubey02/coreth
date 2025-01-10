@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/precompile/testutils"
-	"github.com/shubhamdubey02/corethreth/predicate"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/precompile/testutils"
+	"github.com/shubhamdubey02/coreth/predicate"
+	"github.com/shubhamdubey02/coreth/utils"
 	"github.com/shubhamdubey02/cryftgo/ids"
 	"github.com/shubhamdubey02/cryftgoftgo/snow"
 	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"

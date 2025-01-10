@@ -34,8 +34,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/trie/testutil"
-	"github.com/shubhamdubey02/corethreth/trie/triestate"
+	"github.com/shubhamdubey02/coreth/trie/testutil"
+	"github.com/shubhamdubey02/coreth/trie/triestate"
 )
 
 // randomStateSet generates a random state change set.

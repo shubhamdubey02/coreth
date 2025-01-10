@@ -24,7 +24,7 @@ import (
 	"github.com/shubhamdubey02/cryftgoftgo/version"
 
 	"github.com/shubhamdubey02/coreth/peer/stats"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request

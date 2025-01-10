@@ -13,9 +13,9 @@ import (
 	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 
 	"github.com/shubhamdubey02/coreth/constants"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 var (

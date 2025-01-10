@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/precompile/contract"
+	"github.com/shubhamdubey02/coreth/precompile/contract"
 	"github.com/stretchr/testify/require"
 )
 

@@ -11,7 +11,7 @@ import (
 	"github.com/shubhamdubey02/cryftgoftgo/ids"
 
 	"github.com/shubhamdubey02/coreth/internal/ethapi"
-	"github.com/shubhamdubey02/corethreth/rpc"
+	"github.com/shubhamdubey02/coreth/rpc"
 
 	"github.com/ethereum/go-ethereum/log"
 )

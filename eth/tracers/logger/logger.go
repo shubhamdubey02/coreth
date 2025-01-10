@@ -30,9 +30,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 	"github.com/shubhamdubey02/coreth/core/types"
-	"github.com/shubhamdubey02/corethreth/core/vm"
-	"github.com/shubhamdubey02/corethreth/params"
-	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 )
 
 // Storage represents a contract's storage.

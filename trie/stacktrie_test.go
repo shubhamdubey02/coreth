@@ -35,7 +35,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/trie/testutil"
+	"github.com/shubhamdubey02/coreth/trie/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 )

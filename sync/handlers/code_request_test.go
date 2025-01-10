@@ -10,13 +10,13 @@ import (
 
 	"github.com/shubhamdubey02/coreth/params"
 
-	"github.com/shubhamdubey02/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/shubhamdubey02/corethreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
-	"github.com/shubhamdubey02/corethreth/sync/handlers/stats"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/sync/handlers/stats"
+	"github.com/shubhamdubey02/cryftgo/ids"
 	"github.com/stretchr/testify/assert"
 )
 

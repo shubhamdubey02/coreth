@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
-	"github.com/shubhamdubey02/corethreth/precompile/testutils"
-	"github.com/shubhamdubey02/corethreth/utils"
+	"github.com/shubhamdubey02/coreth/precompile/testutils"
+	"github.com/shubhamdubey02/coreth/utils"
 	"go.uber.org/mock/gomock"
 )
 

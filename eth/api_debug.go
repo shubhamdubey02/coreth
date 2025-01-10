@@ -38,11 +38,11 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/shubhamdubey02/coreth/core/rawdb"
-	"github.com/shubhamdubey02/corethreth/core/state"
-	"github.com/shubhamdubey02/corethreth/core/types"
-	"github.com/shubhamdubey02/corethreth/internal/ethapi"
-	"github.com/shubhamdubey02/corethreth/rpc"
-	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/internal/ethapi"
+	"github.com/shubhamdubey02/coreth/rpc"
+	"github.com/shubhamdubey02/coreth/trie"
 )
 
 // DebugAPI is the collection of Ethereum full node APIs for debugging the
