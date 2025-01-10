@@ -9,16 +9,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/ids"
-	engCommon "github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	engCommon "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 )
 
 // createExportTxOptions adds funds to shared memory, imports them, and returns a list of export transactions
@@ -128,14 +128,14 @@ func TestExportTxEVMStateTransfer(t *testing.T) {
 	tests := []struct {
 		name          string
 		tx            []EVMInput
-		cryftBalance   *big.Int
+		cryftBalance  *big.Int
 		balances      map[ids.ID]*big.Int
 		expectedNonce uint64
 		shouldErr     bool
 	}{
 		{
-			name:        "no transfers",
-			tx:          nil,
+			name:         "no transfers",
+			tx:           nil,
 			cryftBalance: big.NewInt(int64(cryftAmount) * x2cRateInt64),
 			balances: map[ids.ID]*big.Int{
 				customAssetID: big.NewInt(int64(customAmount)),
@@ -449,7 +449,7 @@ func TestExportTxSemanticVerify(t *testing.T) {
 	ethAddr := testEthAddrs[0]
 
 	var (
-		cryftBalance           = 10 * units.Cryft
+		cryftBalance          = 10 * units.Cryft
 		custom0Balance uint64 = 100
 		custom0AssetID        = ids.ID{1, 2, 3, 4, 5}
 		custom1Balance uint64 = 1000
@@ -937,7 +937,7 @@ func TestExportTxAccept(t *testing.T) {
 	ethAddr := testEthAddrs[0]
 
 	var (
-		cryftBalance           = 10 * units.Cryft
+		cryftBalance          = 10 * units.Cryft
 		custom0Balance uint64 = 100
 		custom0AssetID        = ids.ID{1, 2, 3, 4, 5}
 	)
@@ -1630,52 +1630,52 @@ func TestExportTxGasCost(t *testing.T) {
 
 func TestNewExportTx(t *testing.T) {
 	tests := []struct {
-		name               string
-		genesis            string
-		rules              params.Rules
-		bal                uint64
+		name                string
+		genesis             string
+		rules               params.Rules
+		bal                 uint64
 		expectedBurnedCRYFT uint64
 	}{
 		{
-			name:               "apricot phase 0",
-			genesis:            genesisJSONApricotPhase0,
-			rules:              apricotRulesPhase0,
-			bal:                44000000,
+			name:                "apricot phase 0",
+			genesis:             genesisJSONApricotPhase0,
+			rules:               apricotRulesPhase0,
+			bal:                 44000000,
 			expectedBurnedCRYFT: 1000000,
 		},
 		{
-			name:               "apricot phase 1",
-			genesis:            genesisJSONApricotPhase1,
-			rules:              apricotRulesPhase1,
-			bal:                44000000,
+			name:                "apricot phase 1",
+			genesis:             genesisJSONApricotPhase1,
+			rules:               apricotRulesPhase1,
+			bal:                 44000000,
 			expectedBurnedCRYFT: 1000000,
 		},
 		{
-			name:               "apricot phase 2",
-			genesis:            genesisJSONApricotPhase2,
-			rules:              apricotRulesPhase2,
-			bal:                43000000,
+			name:                "apricot phase 2",
+			genesis:             genesisJSONApricotPhase2,
+			rules:               apricotRulesPhase2,
+			bal:                 43000000,
 			expectedBurnedCRYFT: 1000000,
 		},
 		{
-			name:               "apricot phase 3",
-			genesis:            genesisJSONApricotPhase3,
-			rules:              apricotRulesPhase3,
-			bal:                44446500,
+			name:                "apricot phase 3",
+			genesis:             genesisJSONApricotPhase3,
+			rules:               apricotRulesPhase3,
+			bal:                 44446500,
 			expectedBurnedCRYFT: 276750,
 		},
 		{
-			name:               "apricot phase 4",
-			genesis:            genesisJSONApricotPhase4,
-			rules:              apricotRulesPhase4,
-			bal:                44446500,
+			name:                "apricot phase 4",
+			genesis:             genesisJSONApricotPhase4,
+			rules:               apricotRulesPhase4,
+			bal:                 44446500,
 			expectedBurnedCRYFT: 276750,
 		},
 		{
-			name:               "apricot phase 5",
-			genesis:            genesisJSONApricotPhase5,
-			rules:              apricotRulesPhase5,
-			bal:                39946500,
+			name:                "apricot phase 5",
+			genesis:             genesisJSONApricotPhase5,
+			rules:               apricotRulesPhase5,
+			bal:                 39946500,
 			expectedBurnedCRYFT: 2526750,
 		},
 	}

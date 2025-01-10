@@ -32,9 +32,9 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/eth/tracers"
 )
 
 func init() {

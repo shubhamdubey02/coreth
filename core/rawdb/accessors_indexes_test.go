@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/internal/blocktest"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/internal/blocktest"
 )
 
 var newTestHasher = blocktest.NewHasher

@@ -29,13 +29,13 @@ package core
 import (
 	"math/big"
 
-	"github.com/cryft-labs/coreth/consensus"
-	"github.com/cryft-labs/coreth/consensus/misc/eip4844"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/predicate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/consensus"
+	"github.com/shubhamdubey02/corethreth/consensus/misc/eip4844"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/predicate"
 	//"github.com/ethereum/go-ethereum/log"
 )
 

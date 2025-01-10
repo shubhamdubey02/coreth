@@ -27,10 +27,10 @@
 package blobpool
 
 import (
-	"github.com/cryft-labs/coreth/core/state"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 // BlockChain defines the minimal set of methods needed to back a blob pool with

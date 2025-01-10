@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 var (

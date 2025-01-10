@@ -2,8 +2,8 @@
 package eth
 
 import (
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 const blocksToKeep = 604_800 // Approx. 2 weeks worth of blocks assuming 2s block time

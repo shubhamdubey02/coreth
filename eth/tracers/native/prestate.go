@@ -32,12 +32,12 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/eth/tracers"
 )
 
 //go:generate go run github.com/fjl/gencodec -type account -field-override accountMarshaling -out gen_account_json.go

@@ -30,10 +30,10 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/rpc"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/rpc"
 )
 
 // additional slots in the header cache to allow processing queries

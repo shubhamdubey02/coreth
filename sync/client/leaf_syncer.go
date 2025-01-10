@@ -9,10 +9,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/coreth/plugin/evm/message"
-	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/corethreth/utils"
 	"golang.org/x/sync/errgroup"
 )
 

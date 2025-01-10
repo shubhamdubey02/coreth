@@ -6,7 +6,7 @@ package message
 import (
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
 	"github.com/stretchr/testify/assert"
 )

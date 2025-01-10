@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/coreth/precompile/modules"
-	"github.com/cryft-labs/coreth/precompile/precompileconfig"
-	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/precompile/modules"
+	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/corethreth/utils"
 )
 
 var errNoKey = errors.New("PrecompileUpgrade cannot be empty")

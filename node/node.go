@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/cryft-labs/coreth/accounts"
-	"github.com/cryft-labs/coreth/rpc"
+	"github.com/shubhamdubey02/coreth/accounts"
+	"github.com/shubhamdubey02/corethreth/rpc"
 )
 
 // Node is a container on which services can be registered.

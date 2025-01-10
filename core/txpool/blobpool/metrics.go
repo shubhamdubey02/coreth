@@ -26,7 +26,7 @@
 
 package blobpool
 
-import "github.com/cryft-labs/coreth/metrics"
+import "github.com/shubhamdubey02/coreth/metrics"
 
 var (
 	// datacapGauge tracks the user's configured capacity for the blob pool. It

@@ -8,14 +8,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
 
-	"github.com/cryft-labs/coreth/plugin/evm/message"
-	"github.com/cryft-labs/coreth/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/corethreth/sync/handlers/stats"
 )
 
 const (

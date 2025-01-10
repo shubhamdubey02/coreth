@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/core/state"
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/core/state"
+	"github.com/shubhamdubey02/corethreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 type dummyContractRef struct {

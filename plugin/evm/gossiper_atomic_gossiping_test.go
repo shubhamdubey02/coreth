@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 	"github.com/stretchr/testify/assert"
 
-	commonEng "github.com/cryft-labs/cryftgo/snow/engine/common"
+	commonEng "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
 
-	"github.com/cryft-labs/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
 
 // show that a txID discovered from gossip is requested to the same node only if

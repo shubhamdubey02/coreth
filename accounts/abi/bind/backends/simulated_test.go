@@ -37,14 +37,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/coreth/accounts/abi"
-	"github.com/cryft-labs/coreth/accounts/abi/bind"
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/shubhamdubey02/coreth/accounts/abi"
+	"github.com/shubhamdubey02/corethreth/accounts/abi/bind"
+	"github.com/shubhamdubey02/corethreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

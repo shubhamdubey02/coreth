@@ -35,12 +35,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

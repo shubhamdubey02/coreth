@@ -27,10 +27,10 @@
 package trie
 
 import (
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/trienode"
 )
 
 // SecureTrie is the old name of StateTrie.

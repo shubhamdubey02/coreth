@@ -33,10 +33,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/txpool"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 func TestTransactionPriceNonceSortLegacy(t *testing.T) {

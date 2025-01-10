@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/precompile/contract"
-	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
+	"github.com/shubhamdubey02/coreth/precompile/contract"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
 )
 
 // PrecompiledContractsApricot contains the default set of pre-compiled Ethereum

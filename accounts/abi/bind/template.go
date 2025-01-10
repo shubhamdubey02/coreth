@@ -26,7 +26,7 @@
 
 package bind
 
-import "github.com/cryft-labs/coreth/accounts/abi"
+import "github.com/shubhamdubey02/coreth/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -101,10 +101,10 @@ import (
 	"strings"
 	"errors"
 
-	"github.com/cryft-labs/coreth/accounts/abi"
-	"github.com/cryft-labs/coreth/accounts/abi/bind"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
+	"github.com/shubhamdubey02/corethreth/accounts/abi"
+	"github.com/shubhamdubey02/corethreth/accounts/abi/bind"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

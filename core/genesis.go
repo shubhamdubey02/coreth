@@ -34,17 +34,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/core/state"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/trie"
-	"github.com/cryft-labs/coreth/trie/triedb/pathdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/core/state"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

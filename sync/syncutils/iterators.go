@@ -4,9 +4,9 @@
 package syncutils
 
 import (
-	"github.com/cryft-labs/coreth/core/state/snapshot"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/shubhamdubey02/coreth/core/state/snapshot"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 var (

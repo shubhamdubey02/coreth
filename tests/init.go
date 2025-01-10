@@ -31,8 +31,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/utils"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/corethreth/utils"
 )
 
 // Forks table defines supported forks and their chain config.

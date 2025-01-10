@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/trienode"
-	"github.com/cryft-labs/coreth/trie/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/trienode"
+	"github.com/shubhamdubey02/corethreth/trie/utils"
 )
 
 var (

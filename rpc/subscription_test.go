@@ -38,7 +38,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

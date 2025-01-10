@@ -6,17 +6,17 @@ ARG AVALANCHE_VERSION
 RUN mkdir -p $GOPATH/src/github.com/ava-labs
 WORKDIR $GOPATH/src/github.com/ava-labs
 
-RUN git clone -b $AVALANCHE_VERSION --single-branch https://github.com/cryft-labs/cryftgo.git
+RUN git clone -b $AVALANCHE_VERSION --single-branch https://github.com/shubhamdubey02/cryftgo.git
 
 # Copy coreth repo into desired location
 COPY . coreth
 
 # Set the workdir to CryftGo and update coreth dependency to local version
-WORKDIR $GOPATH/src/github.com/cryft-labs/cryftgo
+WORKDIR $GOPATH/src/github.com/shubhamdubey02/cryftgo
 # Run go mod download here to improve caching of CryftGo specific depednencies
 RUN go mod download
 # Replace the coreth dependency
-RUN go mod edit -replace github.com/cryft-labs/coreth=../coreth
+RUN go mod edit -replace github.com/shubhamdubey02/coreth=../coreth
 RUN go mod download && go mod tidy -compat=1.21
 
 # Build the CryftGo binary with local version of coreth.
@@ -33,6 +33,6 @@ RUN mkdir -p /cryftgo/build
 WORKDIR /cryftgo/build
 
 # Copy the executables into the container
-COPY --from=builder /go/src/github.com/cryft-labs/cryftgo/build .
+COPY --from=builder /go/src/github.com/shubhamdubey02/cryftgo/build .
 
 CMD [ "./cryftgo" ]

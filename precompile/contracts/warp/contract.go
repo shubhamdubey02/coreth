@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
-	"github.com/cryft-labs/coreth/accounts/abi"
-	"github.com/cryft-labs/coreth/precompile/contract"
-	"github.com/cryft-labs/coreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/accounts/abi"
+	"github.com/shubhamdubey02/corethreth/precompile/contract"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
 
 	_ "embed"
 

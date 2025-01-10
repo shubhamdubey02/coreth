@@ -31,10 +31,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/metrics"
 )
 
 var (

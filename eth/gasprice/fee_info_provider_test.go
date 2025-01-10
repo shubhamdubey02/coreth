@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
 	"github.com/stretchr/testify/require"
 )
 

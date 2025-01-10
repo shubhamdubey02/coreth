@@ -33,10 +33,6 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/precompile/contract"
-	"github.com/cryft-labs/coreth/precompile/modules"
-	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -44,6 +40,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto/bls12381"
 	"github.com/ethereum/go-ethereum/crypto/bn256"
 	"github.com/ethereum/go-ethereum/crypto/kzg4844"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/corethreth/precompile/contract"
+	"github.com/shubhamdubey02/corethreth/precompile/modules"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
 	"golang.org/x/crypto/ripemd160"
 )
 

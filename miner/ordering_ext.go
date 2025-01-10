@@ -3,9 +3,9 @@ package miner
 import (
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/txpool"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 type TransactionsByPriceAndNonce = transactionsByPriceAndNonce

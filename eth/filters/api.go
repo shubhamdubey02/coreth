@@ -35,13 +35,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
-	"github.com/cryft-labs/coreth/internal/ethapi"
-	"github.com/cryft-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
+	"github.com/shubhamdubey02/corethreth/internal/ethapi"
+	"github.com/shubhamdubey02/corethreth/rpc"
 )
 
 var (

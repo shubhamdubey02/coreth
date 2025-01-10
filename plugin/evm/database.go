@@ -6,7 +6,7 @@ package evm
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

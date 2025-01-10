@@ -34,13 +34,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryft-labs/coreth/accounts/abi"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/shubhamdubey02/coreth/accounts/abi"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 )
 
 const basefeeWiggleMultiplier = 2

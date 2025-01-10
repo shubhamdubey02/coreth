@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/ulimit"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ulimit"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm"
 
-	"github.com/cryft-labs/coreth/plugin/evm"
+	"github.com/shubhamdubey02/coreth/plugin/evm"
 )
 
 func main() {

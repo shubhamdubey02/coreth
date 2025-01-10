@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/plugin/evm/message"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
 )
 
 type stateSyncServerConfig struct {

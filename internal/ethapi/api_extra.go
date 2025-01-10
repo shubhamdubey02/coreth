@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/rpc"
 )
 
 // GetChainConfig returns the chain config.

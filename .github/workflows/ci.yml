@@ -36,7 +36,7 @@ jobs:
       - name: change cryftgo dep
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
-          go mod edit -replace github.com/cryft-labs/cryftgo=./cryftgo
+          go mod edit -replace github.com/shubhamdubey02/cryftgo=./cryftgo
           go mod tidy
           go clean -modcache # avoid conflicts with the golangci-lint-action cache
       - run: ./scripts/lint_allowed_geth_imports.sh
@@ -75,7 +75,7 @@ jobs:
     - name: change cryftgo dep
       if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
-        go mod edit -replace github.com/cryft-labs/cryftgo=./cryftgo
+        go mod edit -replace github.com/shubhamdubey02/cryftgo=./cryftgo
         go mod tidy
     - name: Set timeout on Windows # Windows UT run slower and need a longer timeout
       shell: bash

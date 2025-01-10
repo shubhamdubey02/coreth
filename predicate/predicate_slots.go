@@ -4,10 +4,10 @@
 package predicate
 
 import (
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/utils"
 )
 
 // PreparePredicateStorageSlots populates the the predicate storage slots of a transaction's access list

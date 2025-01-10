@@ -8,8 +8,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/coreth/utils"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/coreth/utils"
 )
 
 // UpgradeConfig includes the following configs that may be specified in upgradeBytes:

@@ -30,10 +30,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cryft-labs/coreth/trie/trienode"
-	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/trie/trienode"
+	"github.com/shubhamdubey02/corethreth/trie/triestate"
 )
 
 // diffLayer represents a collection of modifications made to the in-memory tries

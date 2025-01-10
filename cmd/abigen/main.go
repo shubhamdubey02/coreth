@@ -34,12 +34,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cryft-labs/coreth/accounts/abi/bind"
-	"github.com/cryft-labs/coreth/cmd/utils"
-	"github.com/cryft-labs/coreth/internal/flags"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/accounts/abi/bind"
+	"github.com/shubhamdubey02/corethreth/cmd/utils"
+	"github.com/shubhamdubey02/corethreth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

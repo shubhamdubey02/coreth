@@ -26,7 +26,7 @@
 
 package pathdb
 
-import "github.com/cryft-labs/coreth/metrics"
+import "github.com/shubhamdubey02/coreth/metrics"
 
 // nolint: unused
 var (

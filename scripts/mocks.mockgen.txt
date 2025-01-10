@@ -1,2 +1,2 @@
-github.com/cryft-labs/coreth/precompile/precompileconfig=Predicater,Config,ChainConfig,Accepter=precompile/precompileconfig/mocks.go
-github.com/cryft-labs/coreth/precompile/contract=BlockContext,AccessibleState,StateDB=precompile/contract/mocks.go
+github.com/shubhamdubey02/coreth/precompile/precompileconfig=Predicater,Config,ChainConfig,Accepter=precompile/precompileconfig/mocks.go
+github.com/shubhamdubey02/coreth/precompile/contract=BlockContext,AccessibleState,StateDB=precompile/contract/mocks.go

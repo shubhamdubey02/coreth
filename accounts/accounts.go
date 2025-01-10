@@ -31,10 +31,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 	"golang.org/x/crypto/sha3"
 )
 

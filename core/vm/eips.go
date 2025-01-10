@@ -30,10 +30,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
 )
 
 var activators = map[int]func(*JumpTable){

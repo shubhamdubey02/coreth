@@ -8,10 +8,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
 	"github.com/stretchr/testify/assert"
 )
 

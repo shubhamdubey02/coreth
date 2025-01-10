@@ -25,14 +25,14 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/core/vm"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/core/vm"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
 )
 
 // Storage represents a contract's storage.

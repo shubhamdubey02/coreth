@@ -6,9 +6,9 @@ package warp
 import (
 	"fmt"
 
-	"github.com/cryft-labs/coreth/precompile/contract"
-	"github.com/cryft-labs/coreth/precompile/modules"
-	"github.com/cryft-labs/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/precompile/contract"
+	"github.com/shubhamdubey02/corethreth/precompile/modules"
+	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
 
 	"github.com/ethereum/go-ethereum/common"
 )

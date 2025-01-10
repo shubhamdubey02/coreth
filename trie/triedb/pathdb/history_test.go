@@ -31,11 +31,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/testutil"
-	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/testutil"
+	"github.com/shubhamdubey02/corethreth/trie/triestate"
 )
 
 // randomStateSet generates a random state change set.

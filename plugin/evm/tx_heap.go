@@ -6,7 +6,7 @@ package evm
 import (
 	"container/heap"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // txEntry is used to track the [gasPrice] transactions pay to be included in

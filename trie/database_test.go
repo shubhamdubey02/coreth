@@ -27,10 +27,10 @@
 package trie
 
 import (
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/trie/triedb/hashdb"
-	"github.com/cryft-labs/coreth/trie/triedb/pathdb"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/trie/triedb/hashdb"
+	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

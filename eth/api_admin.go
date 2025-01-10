@@ -34,9 +34,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 // AdminAPI is the collection of Ethereum full node related APIs for node

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cryft-labs/coreth/rpc"
+	"github.com/shubhamdubey02/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

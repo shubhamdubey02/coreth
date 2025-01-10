@@ -29,7 +29,7 @@ package legacypool
 import (
 	"sync"
 
-	"github.com/cryft-labs/coreth/core/state"
+	"github.com/shubhamdubey02/coreth/core/state"
 	"github.com/ethereum/go-ethereum/common"
 )
 

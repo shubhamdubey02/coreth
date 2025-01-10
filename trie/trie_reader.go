@@ -27,10 +27,10 @@
 package trie
 
 import (
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/triestate"
 )
 
 // Reader wraps the Node method of a backing trie store.

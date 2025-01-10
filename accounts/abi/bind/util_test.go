@@ -33,12 +33,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/coreth/accounts/abi/bind"
-	"github.com/cryft-labs/coreth/accounts/abi/bind/backends"
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/shubhamdubey02/coreth/accounts/abi/bind"
+	"github.com/shubhamdubey02/corethreth/accounts/abi/bind/backends"
+	"github.com/shubhamdubey02/corethreth/core"
+	"github.com/shubhamdubey02/corethreth/core/types"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

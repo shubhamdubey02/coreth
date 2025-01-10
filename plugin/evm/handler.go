@@ -4,14 +4,14 @@
 package evm
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/cryft-labs/coreth/core/txpool"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/plugin/evm/message"
+	"github.com/shubhamdubey02/coreth/core/txpool"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/plugin/evm/message"
 )
 
 // GossipHandler handles incoming gossip messages

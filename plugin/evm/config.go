@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/txpool/legacypool"
-	"github.com/cryft-labs/coreth/eth"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/shubhamdubey02/coreth/core/txpool/legacypool"
+	"github.com/shubhamdubey02/corethreth/eth"
 	"github.com/spf13/cast"
 )
 
@@ -218,7 +218,7 @@ type Config struct {
 	// WarpOffChainMessages encodes off-chain messages (unrelated to any on-chain event ie. block or AddressedCall)
 	// that the node should be willing to sign.
 	// Note: only supports AddressedCall payloads as defined here:
-	// https://github.com/cryft-labs/cryftgo/tree/7623ffd4be915a5185c9ed5e11fa9be15a6e1f00/vms/platformvm/warp/payload#addressedcall
+	// https://github.com/shubhamdubey02/cryftgo/tree/7623ffd4be915a5185c9ed5e11fa9be15a6e1f00/vms/platformvm/warp/payload#addressedcall
 	WarpOffChainMessages []hexutil.Bytes `json:"warp-off-chain-messages"`
 }
 

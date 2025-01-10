@@ -32,10 +32,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/bloombits"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/bloombits"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/coreth/metrics"
-	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/metrics"
+	"github.com/shubhamdubey02/corethreth/utils"
 )
 
 // triePrefetchMetricsPrefix is the prefix under which to publish the metrics.

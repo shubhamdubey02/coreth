@@ -7,11 +7,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 
-	"github.com/cryft-labs/coreth/internal/ethapi"
-	"github.com/cryft-labs/coreth/rpc"
+	"github.com/shubhamdubey02/coreth/internal/ethapi"
+	"github.com/shubhamdubey02/corethreth/rpc"
 
 	"github.com/ethereum/go-ethereum/log"
 )

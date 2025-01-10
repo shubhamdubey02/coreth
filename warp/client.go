@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/coreth/rpc"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 

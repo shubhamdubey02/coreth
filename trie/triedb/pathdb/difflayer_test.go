@@ -30,10 +30,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/trie/testutil"
-	"github.com/cryft-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/trie/testutil"
+	"github.com/shubhamdubey02/corethreth/trie/trienode"
 )
 
 func emptyLayer() *diskLayer {
@@ -45,21 +45,21 @@ func emptyLayer() *diskLayer {
 
 // goos: darwin
 // goarch: arm64
-// pkg: github.com/cryft-labs/coreth/trie
+// pkg: github.com/shubhamdubey02/corethreth/trie
 // BenchmarkSearch128Layers
 // BenchmarkSearch128Layers-8   	  243826	      4755 ns/op
 func BenchmarkSearch128Layers(b *testing.B) { benchmarkSearch(b, 0, 128) }
 
 // goos: darwin
 // goarch: arm64
-// pkg: github.com/cryft-labs/coreth/trie
+// pkg: github.com/shubhamdubey02/corethreth/trie
 // BenchmarkSearch512Layers
 // BenchmarkSearch512Layers-8   	   49686	     24256 ns/op
 func BenchmarkSearch512Layers(b *testing.B) { benchmarkSearch(b, 0, 512) }
 
 // goos: darwin
 // goarch: arm64
-// pkg: github.com/cryft-labs/coreth/trie
+// pkg: github.com/shubhamdubey02/corethreth/trie
 // BenchmarkSearch1Layer
 // BenchmarkSearch1Layer-8   	14062725	        88.40 ns/op
 func BenchmarkSearch1Layer(b *testing.B) { benchmarkSearch(b, 127, 128) }
@@ -112,7 +112,7 @@ func benchmarkSearch(b *testing.B, depth int, total int) {
 
 // goos: darwin
 // goarch: arm64
-// pkg: github.com/cryft-labs/coreth/trie
+// pkg: github.com/shubhamdubey02/corethreth/trie
 // BenchmarkPersist
 // BenchmarkPersist-8   	      10	 111252975 ns/op
 func BenchmarkPersist(b *testing.B) {

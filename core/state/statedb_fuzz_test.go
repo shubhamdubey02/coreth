@@ -39,15 +39,15 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/core/state/snapshot"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie"
-	"github.com/cryft-labs/coreth/trie/triedb/pathdb"
-	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/core/state/snapshot"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie"
+	"github.com/shubhamdubey02/corethreth/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/corethreth/trie/triestate"
 )
 
 // A stateTest checks that the state changes are correctly captured. Instances

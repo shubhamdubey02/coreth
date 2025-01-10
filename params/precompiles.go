@@ -6,8 +6,8 @@ package params
 import (
 	"encoding/json"
 
-	"github.com/cryft-labs/coreth/precompile/modules"
-	"github.com/cryft-labs/coreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/coreth/precompile/modules"
+	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
 )
 
 type Precompiles map[string]precompileconfig.Config

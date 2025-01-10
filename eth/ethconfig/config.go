@@ -29,13 +29,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/txpool/blobpool"
-	"github.com/cryft-labs/coreth/core/txpool/legacypool"
-	"github.com/cryft-labs/coreth/eth/gasprice"
-	"github.com/cryft-labs/coreth/miner"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/txpool/blobpool"
+	"github.com/shubhamdubey02/corethreth/core/txpool/legacypool"
+	"github.com/shubhamdubey02/corethreth/eth/gasprice"
+	"github.com/shubhamdubey02/corethreth/miner"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

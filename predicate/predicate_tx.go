@@ -6,9 +6,9 @@ package predicate
 import (
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/utils"
 )
 
 // NewPredicateTx returns a transaction with the predicateAddress/predicateBytes tuple

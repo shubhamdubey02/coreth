@@ -29,11 +29,11 @@ package trie
 import (
 	"fmt"
 
-	"github.com/cryft-labs/coreth/core/rawdb"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/shubhamdubey02/coreth/core/rawdb"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/trienode"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

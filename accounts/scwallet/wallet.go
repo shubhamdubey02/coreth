@@ -43,13 +43,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/coreth/accounts"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
+	"github.com/shubhamdubey02/coreth/accounts"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 	"github.com/status-im/keycard-go/derivationpath"
 )
 

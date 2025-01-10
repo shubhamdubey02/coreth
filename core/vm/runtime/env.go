@@ -27,8 +27,8 @@
 package runtime
 
 import (
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -10,12 +10,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 
-	"github.com/cryft-labs/coreth/constants"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/trie"
+	"github.com/shubhamdubey02/coreth/constants"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/trie"
 )
 
 var (

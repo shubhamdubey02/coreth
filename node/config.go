@@ -31,10 +31,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cryft-labs/coreth/accounts"
-	"github.com/cryft-labs/coreth/accounts/external"
-	"github.com/cryft-labs/coreth/accounts/keystore"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/accounts"
+	"github.com/shubhamdubey02/corethreth/accounts/external"
+	"github.com/shubhamdubey02/corethreth/accounts/keystore"
 )
 
 // Config represents a small collection of configuration values to fine tune the

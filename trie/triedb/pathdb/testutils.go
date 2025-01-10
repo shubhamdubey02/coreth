@@ -30,11 +30,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie/trienode"
-	"github.com/cryft-labs/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie/trienode"
+	"github.com/shubhamdubey02/corethreth/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

@@ -29,7 +29,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/cryft-labs/coreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 )
 
 type (

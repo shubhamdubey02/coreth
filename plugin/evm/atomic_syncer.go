@@ -9,14 +9,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/database/versiondb"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cryft-labs/coreth/plugin/evm/message"
-	syncclient "github.com/cryft-labs/coreth/sync/client"
-	"github.com/cryft-labs/coreth/trie"
+	"github.com/shubhamdubey02/coreth/plugin/evm/message"
+	syncclient "github.com/shubhamdubey02/corethreth/sync/client"
+	"github.com/shubhamdubey02/corethreth/trie"
 )
 
 var (

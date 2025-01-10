@@ -27,9 +27,9 @@
 package core
 
 import (
-	"github.com/cryft-labs/coreth/core/state"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/core/vm"
+	"github.com/shubhamdubey02/coreth/core/state"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

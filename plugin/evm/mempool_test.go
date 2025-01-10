@@ -6,9 +6,9 @@ package evm
 import (
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
 	"github.com/stretchr/testify/require"
 )
 

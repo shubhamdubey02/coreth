@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/cryft-labs/coreth/params"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"

@@ -32,9 +32,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cryft-labs/coreth/internal/version"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/mattn/go-isatty"
+	"github.com/shubhamdubey02/coreth/internal/version"
+	"github.com/shubhamdubey02/corethreth/params"
 	"github.com/urfave/cli/v2"
 )
 

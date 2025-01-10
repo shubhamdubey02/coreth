@@ -29,11 +29,11 @@ package vm
 import (
 	"errors"
 
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
+	"github.com/shubhamdubey02/coreth/params"
+	"github.com/shubhamdubey02/corethreth/vmerrs"
 )
 
 func opAdd(pc *uint64, interpreter *EVMInterpreter, scope *ScopeContext) ([]byte, error) {

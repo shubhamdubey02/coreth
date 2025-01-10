@@ -29,10 +29,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/cryft-labs/coreth/accounts"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/shubhamdubey02/coreth/accounts"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

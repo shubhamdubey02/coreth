@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/cryft-labs/coreth/vmerrs"
+	"github.com/shubhamdubey02/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"

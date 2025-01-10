@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/coreth/params"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/coreth/params"
 	"github.com/stretchr/testify/require"
 )
 

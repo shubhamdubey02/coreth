@@ -10,19 +10,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 
-	"github.com/cryft-labs/cryftgo/network/p2p"
-	"github.com/cryft-labs/cryftgo/network/p2p/gossip"
+	"github.com/shubhamdubey02/cryftgoftgo/network/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/network/p2p/gossip"
 
-	"github.com/cryft-labs/coreth/core"
-	"github.com/cryft-labs/coreth/core/txpool"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/eth"
+	"github.com/shubhamdubey02/coreth/core"
+	"github.com/shubhamdubey02/corethreth/core/txpool"
+	"github.com/shubhamdubey02/corethreth/core/types"
+	"github.com/shubhamdubey02/corethreth/eth"
 )
 
 const pendingTxsBuffer = 10

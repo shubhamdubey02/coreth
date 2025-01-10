@@ -7,8 +7,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/coreth/core"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/coreth/core"
 )
 
 // StaticService defines the static API services exposed by the evm

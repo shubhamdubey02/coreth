@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
-	"github.com/cryft-labs/coreth/precompile/precompileconfig"
-	"github.com/cryft-labs/coreth/predicate"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
+	"github.com/shubhamdubey02/corethreth/precompile/precompileconfig"
+	"github.com/shubhamdubey02/corethreth/predicate"
 )
 
 var ErrMissingPredicateContext = errors.New("missing predicate context")

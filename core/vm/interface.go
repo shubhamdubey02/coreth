@@ -29,9 +29,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/params"
 )
 
 // StateDB is an EVM database for full state querying.

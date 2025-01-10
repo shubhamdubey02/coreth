@@ -32,7 +32,7 @@ package core
 import (
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 )
 
 // verifyNoGaps checks that there are no gaps after the initial set of blocks in

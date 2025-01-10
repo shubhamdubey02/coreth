@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cryft-labs/cryftgo/api"
-	"github.com/cryft-labs/cryftgo/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/profiler"
 )
 
 // Admin is the API service for admin API calls

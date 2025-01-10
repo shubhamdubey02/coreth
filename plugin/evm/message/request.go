@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 )
 
 // Request represents a Network request type

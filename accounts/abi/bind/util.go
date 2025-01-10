@@ -31,10 +31,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/interfaces"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cryft-labs/coreth/core/types"
+	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"

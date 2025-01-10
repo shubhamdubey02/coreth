@@ -31,10 +31,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/coreth/core/types"
-	"github.com/cryft-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/shubhamdubey02/coreth/core/types"
+	"github.com/shubhamdubey02/corethreth/trie"
 )
 
 // nodeIterator is an iterator to traverse the entire state trie post-order,
