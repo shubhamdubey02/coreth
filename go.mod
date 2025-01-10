@@ -6,7 +6,6 @@ require (
 	github.com/VictoriaMetrics/fastcache v1.12.1
 	github.com/cespare/cp v0.1.0
 	github.com/crate-crypto/go-ipa v0.0.0-20231025140028-3c0104f4b233
-	github.com/shubhamdubey02/cryftgo v1.12.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set/v2 v2.1.0
 	github.com/dop251/goja v0.0.0-20230806174421-c933cf95e127
@@ -30,6 +29,7 @@ require (
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/client_model v0.3.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
+	github.com/shubhamdubey02/cryftgo v1.12.1
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.12.0
