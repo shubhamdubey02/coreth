@@ -16,8 +16,8 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/sync/client/stats"
 
-	"github.com/shubhamdubey02/cryftgoft/codec"
-	"github.com/shubhamdubey02/cryftgoft/version"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"

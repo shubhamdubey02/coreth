@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/cryftgo/database/encdb"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
 )
 
 // Key in the database whose corresponding value is the list of

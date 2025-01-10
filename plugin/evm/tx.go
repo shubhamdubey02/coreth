@@ -16,16 +16,16 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoft/codec"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow"
-	"github.com/shubhamdubey02/cryftgoft/utils"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoft/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
-	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgoft/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoft/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 var (

@@ -15,11 +15,11 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoft/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoft/utils/json"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // test constants

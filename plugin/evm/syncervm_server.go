@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoft/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

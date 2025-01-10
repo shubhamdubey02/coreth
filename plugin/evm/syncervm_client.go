@@ -19,12 +19,12 @@ import (
 	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/coreth/sync/statesync"
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow/choices"
-	commonEng "github.com/shubhamdubey02/cryftgoft/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoft/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoft/vms/components/chain"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/vms/components/chain"
 )
 
 const (

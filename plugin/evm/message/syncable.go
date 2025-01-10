@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/cryftgo/ids"
 
-	"github.com/shubhamdubey02/cryftgoft/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 )
 
 var _ block.StateSummary = &SyncSummary{}

@@ -11,8 +11,8 @@ import (
 
 	"github.com/shubhamdubey02/coreth/precompile/contracts/warp"
 	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
-	avalancheWarp "github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 type AggregateSignatureResult struct {

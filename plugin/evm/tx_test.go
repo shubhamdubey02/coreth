@@ -16,8 +16,8 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
 )
 
 func TestCalculateDynamicFee(t *testing.T) {

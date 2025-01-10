@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoft/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

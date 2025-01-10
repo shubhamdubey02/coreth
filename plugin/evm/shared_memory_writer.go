@@ -6,7 +6,7 @@ package evm
 import (
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ precompileconfig.SharedMemoryWriter = &sharedMemoryWriter{}

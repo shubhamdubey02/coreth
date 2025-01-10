@@ -37,7 +37,7 @@ import (
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/coreth/utils"
 	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoft/version"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 const maxJSONLen = 64 * 1024 * 1024 // 64MB
@@ -531,21 +531,21 @@ func (c *ChainConfig) Description() string {
 	}
 
 	banner += "Hard forks (timestamp based):\n"
-	banner += fmt.Sprintf(" - Cancun Timestamp:                 @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.12.0)\n", ptrToString(c.CancunTime))
+	banner += fmt.Sprintf(" - Cancun Timestamp:                 @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.12.0)\n", ptrToString(c.CancunTime))
 	banner += "\n"
 
 	banner += "Mandatory Avalanche Upgrades (timestamp based):\n"
-	banner += fmt.Sprintf(" - Apricot Phase 1 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.3.0)\n", ptrToString(c.ApricotPhase1BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase 2 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.4.0)\n", ptrToString(c.ApricotPhase2BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase 3 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.5.0)\n", ptrToString(c.ApricotPhase3BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase 4 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.6.0)\n", ptrToString(c.ApricotPhase4BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase 5 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.7.0)\n", ptrToString(c.ApricotPhase5BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase P6 Timestamp        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.8.0)\n", ptrToString(c.ApricotPhasePre6BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase 6 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.8.0)\n", ptrToString(c.ApricotPhase6BlockTimestamp))
-	banner += fmt.Sprintf(" - Apricot Phase Post-6 Timestamp:   @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.8.0\n", ptrToString(c.ApricotPhasePost6BlockTimestamp))
-	banner += fmt.Sprintf(" - Banff Timestamp:                  @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.9.0)\n", ptrToString(c.BanffBlockTimestamp))
-	banner += fmt.Sprintf(" - Cortina Timestamp:                @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.10.0)\n", ptrToString(c.CortinaBlockTimestamp))
-	banner += fmt.Sprintf(" - Durango Timestamp:                @%-10v (https://github.com/shubhamdubey02/cryftgoft/releases/tag/v1.11.0)\n", ptrToString(c.DurangoBlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 1 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.3.0)\n", ptrToString(c.ApricotPhase1BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 2 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.4.0)\n", ptrToString(c.ApricotPhase2BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 3 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.5.0)\n", ptrToString(c.ApricotPhase3BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 4 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.6.0)\n", ptrToString(c.ApricotPhase4BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 5 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.7.0)\n", ptrToString(c.ApricotPhase5BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase P6 Timestamp        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.8.0)\n", ptrToString(c.ApricotPhasePre6BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase 6 Timestamp:        @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.8.0)\n", ptrToString(c.ApricotPhase6BlockTimestamp))
+	banner += fmt.Sprintf(" - Apricot Phase Post-6 Timestamp:   @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.8.0\n", ptrToString(c.ApricotPhasePost6BlockTimestamp))
+	banner += fmt.Sprintf(" - Banff Timestamp:                  @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.9.0)\n", ptrToString(c.BanffBlockTimestamp))
+	banner += fmt.Sprintf(" - Cortina Timestamp:                @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.10.0)\n", ptrToString(c.CortinaBlockTimestamp))
+	banner += fmt.Sprintf(" - Durango Timestamp:                @%-10v (https://github.com/shubhamdubey02/cryftgo/releases/tag/v1.11.0)\n", ptrToString(c.DurangoBlockTimestamp))
 	banner += "\n"
 
 	upgradeConfigBytes, err := json.Marshal(c.UpgradeConfig)

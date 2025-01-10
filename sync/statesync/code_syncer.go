@@ -15,7 +15,7 @@ import (
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	statesyncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 const (

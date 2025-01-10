@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoft/vms/components/chain"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/vms/components/chain"
 
 	"github.com/stretchr/testify/assert"
 )

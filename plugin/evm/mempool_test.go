@@ -8,7 +8,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow"
+	"github.com/shubhamdubey02/cryftgo/snow"
 	"github.com/stretchr/testify/require"
 )
 

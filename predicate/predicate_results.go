@@ -9,9 +9,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoft/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoft/utils/units"
-	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

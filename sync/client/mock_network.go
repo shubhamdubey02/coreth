@@ -10,7 +10,7 @@ import (
 	"github.com/shubhamdubey02/coreth/peer"
 	"github.com/shubhamdubey02/cryftgo/ids"
 
-	"github.com/shubhamdubey02/cryftgoft/version"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 var _ peer.NetworkClient = &mockNetwork{}

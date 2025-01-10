@@ -12,13 +12,13 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoft/database"
-	"github.com/shubhamdubey02/cryftgoft/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils"
-	"github.com/shubhamdubey02/cryftgoft/utils/units"
-	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

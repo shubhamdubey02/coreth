@@ -9,8 +9,8 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/codec"
 
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/units"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 const (

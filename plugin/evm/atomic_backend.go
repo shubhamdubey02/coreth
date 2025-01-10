@@ -13,12 +13,12 @@ import (
 	"github.com/shubhamdubey02/coreth/core/types"
 	syncclient "github.com/shubhamdubey02/coreth/sync/client"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoft/codec"
-	"github.com/shubhamdubey02/cryftgoft/database"
-	"github.com/shubhamdubey02/cryftgoft/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 var _ AtomicBackend = &atomicBackend{}

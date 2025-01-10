@@ -9,8 +9,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoft/database"
-	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ AtomicState = &atomicState{}

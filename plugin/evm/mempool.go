@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/network/p2p/gossip"
-	"github.com/shubhamdubey02/cryftgoft/snow"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/network/p2p/gossip"
+	"github.com/shubhamdubey02/cryftgo/snow"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/coreth/metrics"

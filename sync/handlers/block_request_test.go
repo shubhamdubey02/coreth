@@ -20,7 +20,7 @@ import (
 	"github.com/shubhamdubey02/coreth/sync/handlers/stats"
 	"github.com/shubhamdubey02/coreth/trie"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 	"github.com/stretchr/testify/assert"
 )
 

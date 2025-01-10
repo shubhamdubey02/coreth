@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 

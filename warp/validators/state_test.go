@@ -9,8 +9,8 @@ import (
 
 	"github.com/shubhamdubey02/coreth/utils"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow/validators"
-	"github.com/shubhamdubey02/cryftgoft/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

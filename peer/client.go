@@ -9,7 +9,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/ids"
 
-	"github.com/shubhamdubey02/cryftgoft/version"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 var (

@@ -5,11 +5,11 @@ package utils
 
 import (
 	"github.com/shubhamdubey02/cryftgo/api/metrics"
-	"github.com/shubhamdubey02/cryftgoft/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow"
-	"github.com/shubhamdubey02/cryftgoft/snow/validators"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoft/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

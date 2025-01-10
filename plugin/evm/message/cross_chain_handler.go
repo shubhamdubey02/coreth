@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
 	"github.com/shubhamdubey02/coreth/internal/ethapi"
 	"github.com/shubhamdubey02/coreth/rpc"

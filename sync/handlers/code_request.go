@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"

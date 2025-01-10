@@ -14,10 +14,10 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 
-	"github.com/shubhamdubey02/cryftgoft/network/p2p"
-	"github.com/shubhamdubey02/cryftgoft/network/p2p/gossip"
+	"github.com/shubhamdubey02/cryftgo/network/p2p"
+	"github.com/shubhamdubey02/cryftgo/network/p2p/gossip"
 
 	"github.com/shubhamdubey02/coreth/core"
 	"github.com/shubhamdubey02/coreth/core/txpool"

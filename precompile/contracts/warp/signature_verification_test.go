@@ -9,15 +9,15 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/snow/validators"
-	"github.com/shubhamdubey02/cryftgoft/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
-	avalancheWarp "github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	avalancheWarp "github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )
 
-// This test copies the test coverage from https://github.com/shubhamdubey02/cryftgoft/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
+// This test copies the test coverage from https://github.com/shubhamdubey02/cryftgo/blob/v1.10.0/vms/platformvm/warp/signature_test.go#L137.
 // These tests are only expected to fail if there is a breaking change in CryftGo that unexpectedly changes behavior.
 func TestSignatureVerification(t *testing.T) {
 	tests = []signatureTest{

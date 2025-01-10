@@ -15,7 +15,7 @@ import (
 	"github.com/shubhamdubey02/coreth/warp"
 	warpHandlers "github.com/shubhamdubey02/coreth/warp/handlers"
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ message.RequestHandler = &networkHandler{}

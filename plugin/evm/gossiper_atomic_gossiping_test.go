@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoft/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 	"github.com/stretchr/testify/assert"
 
-	commonEng "github.com/shubhamdubey02/cryftgoft/snow/engine/common"
+	commonEng "github.com/shubhamdubey02/cryftgo/snow/engine/common"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 )
