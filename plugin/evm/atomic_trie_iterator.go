@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgoft/codec"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/trie"

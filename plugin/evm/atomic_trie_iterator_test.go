@@ -8,10 +8,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoft/database/memdb"
+	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

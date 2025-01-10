@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoft/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgoft/vms/secp256k1fx"
 )
 
 // Codec does serialization and deserialization

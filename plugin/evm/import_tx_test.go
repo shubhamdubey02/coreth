@@ -11,13 +11,13 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/utils"
+	"github.com/shubhamdubey02/cryftgoft/utils/constants"
+	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoft/utils/set"
+	"github.com/shubhamdubey02/cryftgoft/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoft/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

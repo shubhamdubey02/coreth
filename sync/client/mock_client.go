@@ -14,7 +14,7 @@ import (
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/shubhamdubey02/coreth/sync/handlers"
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoft/ids"
 )
 
 var (

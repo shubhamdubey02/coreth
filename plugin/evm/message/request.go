@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoft/ids"
 )
 
 // Request represents a Network request type

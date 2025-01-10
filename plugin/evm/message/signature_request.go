@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoft/utils/crypto/bls"
 )
 
 var (

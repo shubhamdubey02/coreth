@@ -14,8 +14,8 @@ import (
 	"github.com/shubhamdubey02/coreth/warp/aggregator"
 	"github.com/shubhamdubey02/coreth/warp/validators"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
+	"github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp/payload"
 )
 
 var errNoValidators = errors.New("cannot aggregate signatures from subnet with no validators")

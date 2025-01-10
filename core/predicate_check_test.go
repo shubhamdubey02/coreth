@@ -12,7 +12,7 @@ import (
 	"github.com/shubhamdubey02/coreth/params"
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoft/utils/set"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

@@ -5,7 +5,7 @@ package evm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoft/utils/hashing"
 )
 
 type Metadata struct {

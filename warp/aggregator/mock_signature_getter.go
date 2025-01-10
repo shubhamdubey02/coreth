@@ -9,8 +9,8 @@ import (
 	reflect "reflect"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	bls "github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
-	warp "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
+	bls "github.com/shubhamdubey02/cryftgoft/utils/crypto/bls"
+	warp "github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp"
 	gomock "go.uber.org/mock/gomock"
 )
 

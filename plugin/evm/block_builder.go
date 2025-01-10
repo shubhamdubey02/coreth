@@ -13,8 +13,8 @@ import (
 	"github.com/shubhamdubey02/cryftgo/utils/timer"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	commonEng "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoft/snow"
+	commonEng "github.com/shubhamdubey02/cryftgoft/snow/engine/common"
 )
 
 const (

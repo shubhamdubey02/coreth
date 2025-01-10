@@ -10,7 +10,7 @@ import (
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/coreth/trie/trienode"
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoft/ids"
 )
 
 var repairedKey = []byte("atomicTrieHasBonusBlocks")

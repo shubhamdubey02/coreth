@@ -9,7 +9,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/profiler"
+	"github.com/shubhamdubey02/cryftgoft/utils/profiler"
 )
 
 // Admin is the API service for admin API calls

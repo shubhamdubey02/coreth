@@ -11,7 +11,7 @@ import (
 	"github.com/shubhamdubey02/coreth/precompile/contract"
 	"github.com/shubhamdubey02/coreth/vmerrs"
 	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
+	"github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp/payload"
 
 	_ "embed"
 

@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoft/database/memdb"
+	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/rawdb"

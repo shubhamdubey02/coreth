@@ -5,8 +5,8 @@ package evm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
+	"github.com/shubhamdubey02/cryftgoft/utils/logging"
+	"github.com/shubhamdubey02/cryftgoft/vms"
 )
 
 var (

@@ -51,7 +51,7 @@ import (
 	"github.com/shubhamdubey02/coreth/precompile/precompileconfig"
 	"github.com/shubhamdubey02/coreth/predicate"
 	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoft/utils/units"
 )
 
 const (

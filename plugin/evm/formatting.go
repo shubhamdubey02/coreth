@@ -9,9 +9,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoft/utils/constants"
+	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoft/utils/formatting/address"
 )
 
 // ParseServiceAddress get address ID from address string, being it either localized (using address manager,

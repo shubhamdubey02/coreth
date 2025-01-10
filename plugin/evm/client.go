@@ -11,12 +11,12 @@ import (
 	"golang.org/x/exp/slog"
 
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoft/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoft/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoft/utils/json"
+	"github.com/shubhamdubey02/cryftgoft/utils/rpc"
 )
 
 // Interface compliance

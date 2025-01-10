@@ -15,7 +15,7 @@ import (
 	"github.com/shubhamdubey02/coreth/predicate"
 	warpValidators "github.com/shubhamdubey02/coreth/warp/validators"
 	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp/payload"
+	"github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp/payload"
 )
 
 const (

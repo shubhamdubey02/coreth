@@ -15,18 +15,18 @@ import (
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/shubhamdubey02/cryftgo/network/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoft/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoft/utils/logging"
+	"github.com/shubhamdubey02/cryftgoft/utils/set"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shubhamdubey02/cryftgoftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgoft/codec"
+	"github.com/shubhamdubey02/cryftgoft/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/version"
 )
 
 var (

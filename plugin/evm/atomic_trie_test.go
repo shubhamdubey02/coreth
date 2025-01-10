@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/leveldb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgoft/database"
+	"github.com/shubhamdubey02/cryftgoft/database/leveldb"
+	"github.com/shubhamdubey02/cryftgoft/database/memdb"
+	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/utils/logging"
+	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 )

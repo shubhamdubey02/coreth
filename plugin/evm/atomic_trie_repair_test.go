@@ -10,8 +10,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/coreth/core/types"
 	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoft/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoft/ids"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 )

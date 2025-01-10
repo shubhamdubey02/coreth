@@ -24,9 +24,9 @@ import (
 	"github.com/shubhamdubey02/coreth/predicate"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgoft/snow/choices"
+	"github.com/shubhamdubey02/cryftgoft/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgoft/snow/engine/snowman/block"
 )
 
 var (

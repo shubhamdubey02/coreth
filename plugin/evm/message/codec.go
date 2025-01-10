@@ -5,9 +5,9 @@ package message
 
 import (
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgoft/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoft/utils/units"
+	"github.com/shubhamdubey02/cryftgoft/utils/wrappers"
 )
 
 const (

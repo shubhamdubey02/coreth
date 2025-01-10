@@ -9,8 +9,8 @@ import (
 	"os"
 
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ulimit"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm"
+	"github.com/shubhamdubey02/cryftgoft/utils/ulimit"
+	"github.com/shubhamdubey02/cryftgoft/vms/rpcchainvm"
 
 	"github.com/shubhamdubey02/coreth/plugin/evm"
 )

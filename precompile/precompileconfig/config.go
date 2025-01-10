@@ -7,10 +7,10 @@ package precompileconfig
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgoft/ids"
+	"github.com/shubhamdubey02/cryftgoft/snow"
+	"github.com/shubhamdubey02/cryftgoft/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgoft/vms/platformvm/warp"
 )
 
 // StatefulPrecompileConfig defines the interface for a stateful precompile to

@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoft/utils/set"
 
-	commonEng "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	commonEng "github.com/shubhamdubey02/cryftgoft/snow/engine/common"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"

@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoft/snow"
+	"github.com/shubhamdubey02/cryftgoft/snow/validators"
+	"github.com/shubhamdubey02/cryftgoft/utils/constants"
 )
 
 var _ validators.State = (*State)(nil)
